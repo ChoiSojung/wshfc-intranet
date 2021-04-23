@@ -13,7 +13,7 @@ export default function Layout({children, home}) {
                     Quick Links
                 </span>
             </div>
-            <div className="px-4 border-b flex items-center">
+            <div className="px-4 border-r border-b flex items-center">
                 <ul>
                     <li className="py-1">Attendance</li>
                     <li className="py-1">Leave</li>
