@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>WSHFC Intranet</title>
+        <title>Intranet</title>
       </Head>
       <section>
-        <p>This is the home page</p>
+        <p>Hi Russ</p>
       </section>
     </Layout>
   )

@@ -2,13 +2,16 @@ import * as React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Weather from './weather'
 
 export default function Layout({children, home}) {
     
     return (
     <div>
-        <aside className="bg-white w-64 min-h-screen flex flex-col">
-            <div className="bg-white border-r border-b px-4 h-10 flex items-center">
+
+        <aside className="bg-gray-200 w-64 min-h-screen flex flex-col">
+        <Weather></Weather>
+            <div className="border-r border-b px-4 h-10 flex items-center">
                 <span className="text-blue py-2">
                     Quick Links
                 </span>
