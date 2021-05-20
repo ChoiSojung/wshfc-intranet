@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function HrFinance(){
     const [isOpen, setisOpen] = React.useState(false)
@@ -374,11 +375,14 @@ export default function HrFinance(){
                             </div>
                         </div>
                         {/* <------------ End Page Content ------------> */}
+              
                     </div>
-                        
+                    
                 </div>
                 {/* <---------- End Main ----------> */}
-                
+                <div className="fixed right-2 bottom-5">
+                    <ScrollToTop></ScrollToTop>
+                </div>
                 {/* <----------- Footer -----------> */}
                 <div className="bg-blue-900 py-12 mt-12 w-full flex flex-col items-center border-t-4 border-blue-500 text-lg text-gray-100">
                     <h2 className="font-bold text-xl mt-4">Send us your suggestions!</h2>
@@ -411,6 +415,7 @@ export default function HrFinance(){
                     <p className="text-md">1000 2nd Avenue, Suite 2700, Seattle, WA 98104</p>
                     <p className="text-md">office (206) 464-7139 | fax (206) 587-5113 | toll-free (800) 767-4663</p>
                 </div>
+                
                 {/* <---------- End Footer ---------> */}
 
             </div>

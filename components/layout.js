@@ -1,8 +1,8 @@
 import * as React from 'react'
 import Head from 'next/head'
-import Sidenav from './sidenav'
-import Header from './header'
-import Footer from './footer'
+import Sidenav from './SideNav'
+import Header from './Header'
+import Footer from './Footer'
 
 const navigation = [
     { name: 'About', href: '/', current: true },
