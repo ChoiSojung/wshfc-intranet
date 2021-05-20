@@ -1,14 +1,15 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
+import Image from 'next/image'
+import Link from 'next/link'
+import React, { useState } from 'react'
 
 export default function CFD(){
+
+
     return (
-        <Layout>
-            <Head>
-                <title>Intranet</title>
-            </Head>
-            
-            cfd page
-        </Layout>
+        <div>
+            CFD
+        </div>
+        
     )
 }

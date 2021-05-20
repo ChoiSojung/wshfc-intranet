@@ -1,65 +1,73 @@
-import * as React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import React, { useState } from 'react'
 
-const navigation = [
-    { name: 'About', href: 'about', current: true },
-    { name: 'HR & Finance', href: 'hr-finance', current: false },
-    { name: 'IT', href: 'it', current: false },
-    { name: 'Communications', href: 'communications', current: false },
-    { name: 'Employee Resources', href: 'employee-resources', current: false },
-    { name: 'Combined Fund Drive', href: 'cfd', current: false }
-  ]
 
-export default function Header({children, home}) {
+export default function Header() {
+    const [isOpen, setisOpen] = React.useState(false)
+
+    function handleClick(){
+        console.log('Clicked!')
+        setisOpen(!isOpen)
+    }
     
     return (
-    <div>  
-        <header className="lg:px-16 px-6 bg-blue-900 h-20 flex flex-1 flex-wrap items-center lg:py-0 py-2">
-            <div className="flex-1 flex justify-between items-center">
-                
-                <Link href="/">
-                    <a className="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
-                        <Image
-                            src="/../public/images/logo.png"
-                            alt="name" 
-                            width={175}
-                            height={55}
-                        />
-                    </a>
-                </Link>
+        <> 
+            <div className="bg-gray-200 flex flex-col items-center">
+                <header className="bg-blue-900 w-full px-4 py-3 flex flex-wrap flex-row justify-center border-b-4 border-blue-500 sticky top-0">
+                    <div className="max-w-6xl w-full">    
+                        <div className="flex items-center justify-between text-white">
+                            <Link href="/">
+                                <a className="flex items-center my-2 mx-2 ">
+                                    <Image
+                                        src="/../public/images/logo.png"
+                                        alt="name" 
+                                        width={175}
+                                        height={55}
+                                    />
+                                </a>
+                            </Link>
 
-            </div>
-            <div className="flex-1 flex justify-between items-center">
-                <form className="w-full px-4">
-                    <label className="hidden" htmlFor="search-form">Search</label>
-                    <input className="bg-grey-lightest border-2 focus:border-orange p-1 rounded-lg shadow-inner w-full" placeholder="Search" type="text"/>
-                        <button className="hidden">Submit</button>
-                </form>
-            </div>
+                            <div className="max-w-md w-full">
+                                <form className="px-4">
+                                    <label className="hidden" htmlFor="search-form">Search</label>
+                                    <input className="bg-grey-lightest border-2 focus:border-orange p-1 rounded-lg shadow-inner w-full" placeholder="Search" type="text"/>
+                                        <button className="hidden">Submit</button>
+                                </form>
+                            </div>
+
+                           <button type="button" className="my-2 mx-2 lg:hidden block" onClick={handleClick}>
+                               <svg className="fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                   <title>menu</title>
+                                   {isOpen && (
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                                    )}
+                                    {!isOpen && (
+                                    <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                                    )}
+                               </svg>
+                            </button>
+                            
+                        </div>
+                      
+                        <div className="lg:flex lg:w-full lg:max-w-6xl lg:items-center lg:justify-around lg:w-auto w-full w-4" id="menu">
+                            <nav className={`lg:flex ${ isOpen? "block": "hidden"}`}>
+                                <ul className="whitespace-nowrap lg:flex items-center justify-between text-base text-gray-100 pt-4 lg:pt-0 text-white text-xl">
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="about">About Us</a></li>
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="hr-finance">HR &amp; Finance</a></li>
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="it">Information Technology</a></li>
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="communications">Communications</a></li>
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="employee-resources">Employee Resources</a></li>
+                                    <li><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-indigo-400" href="cfd">Combined Fund Drive</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>           
+
             
-
-            <label for="menu-toggle" className="pointer-cursor lg:hidden block"><svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
-            <input className="hidden" type="checkbox" id="menu-toggle" />
-
-            <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-                <nav>
-                    <ul className="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-0">
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="about">About</a></li>
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="hr-finance">HR &amp; Finance</a></li>
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="it">IT</a></li>
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2" href="communications">Communications</a></li>
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2" href="employee-resources">Employee Resources</a></li>
-                    <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2" href="cfd">Combined Fund Drive</a></li>
-                    </ul>
-                </nav>
-                
             </div>
-
-
-        </header>
-    </div>
-
+        </>  
     )
 
   }
