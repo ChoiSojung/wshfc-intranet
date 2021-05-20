@@ -1,9 +1,8 @@
 import * as React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import Sidenav from './sidenav'
 import Header from './header'
+import Footer from './footer'
 
 const navigation = [
     { name: 'About', href: '/', current: true },
@@ -18,15 +17,26 @@ export default function Layout({children, home}) {
     
     return (
     <div>
+        <Head>
+            <title>Intranet | WSHFC </title>
+        </Head>
         <div className="antialiased flex-1"> 
             <Header></Header>
         </div>
 
-        <div className="flex">
-            <Sidenav></Sidenav>
-            
-            <div className="flex-1">{children}</div>
+        <div className="flex flex-col items-center bg-blue-500">
+            <div className="max-w-7xl w-full">
+            <div className="flex-1 h-screen">
+                {children}
+            </div>
+            </div>
         </div>
+
+        <div className="flex-1">
+            <Footer></Footer>
+        </div>
+        
+
     </div>
       
     )
