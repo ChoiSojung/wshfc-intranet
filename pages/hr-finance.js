@@ -18,6 +18,7 @@ export default function HrFinance(){
 
             <Head>
                 <title>WSHFC | Intranet</title>
+               
             </Head>
 
              {/* <--------------- Body --------------> */}
@@ -27,6 +28,7 @@ export default function HrFinance(){
                 {/* <------------ Header -----------> */}
                 <div className="bg-blue-900 w-full px-4 py-3 flex justify-center border-b-4 border-blue-500">
                     <div className="max-w-6xl w-full">
+
 
                         <div className="flex items-center justify-between">
                             <Link href="/">
@@ -92,7 +94,7 @@ export default function HrFinance(){
                 <div className="max-w-7xl w-full flex justify-center">
                     <div className="flex flex-row w-full">
                          {/* <--------------- Start Left Panel --------------> */}
-                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 pr-4 ml-4">
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 px-4">
                             <div className="flex flex-col items-center justify-center w-full mx-4">
                                 <div className="flex items-center justify-center mt-4">
                                     <a href="https://www.soundtransit.org/" target="blank">
@@ -115,56 +117,53 @@ export default function HrFinance(){
                                         />
                                     </a>
                                 </div>
+                                <div className="flex flex-col items-center justify-center w-full mx-4">
+                                    <a className="twitter-timeline" data-height="600" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+                                </div>
                                
-                                <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
-                                    <h2 className="text-md md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
-                                </div>
-                                <div className="pl-7 py-4 bg-gray-200 flex w-full text-gray-700">                        
-                                    <ul className="list-disc list-inside text-xs md:text-lg">
-                                            <li>Timesheet</li>
-                                            <li>Homebase</li>
-                                            <li>WSHFC</li>
-                                            <li>WHEFA</li>
-                                            <li>TSA</li>
-                                            <li>Pictorial Guide</li>
-                                            <li>ESS Login</li>
-                                    </ul>
-                                    
-                                </div>
+                                
                             </div>
                         </div>
                          {/* <--------------- End Left Panel --------------> */}
 
 
                          {/* <--------------- Start Main --------------> */}
-                        <div className="w-full flex flex-col items-center mt-10"> 
-                            <div className="max-w-6x1 w-full mx-4">
+                        <div className="w-full he-full flex flex-col items-center mt-10"> 
+                            <div className="max-w-6x1 w-full mx-4 overflow-y-auto h-4/6">
                                 {/* <------------ Page Content ------------> */}
                                 <div className="px-6">
                                     <p className="text-3xl mt-4 text-gray-600 font-bold pb-2 border-b-2 border-gray-500">Jump to a section</p>
 
                                     <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#manager_resources"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
-                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#manager_resources">Manager Resources</a></p>
-                                            </div></a>
+                                            <a href="#manager_resources">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                    <p className="text-lg text-gray-100 font-bold text-center">Manager Resources</p>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#employee_resources"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
-                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#employee_resources">New Employee Resources</a></p>
-                                            </div></a>
+                                            <a href="#employee_resources">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                    <p className="text-lg text-gray-100 font-bold text-center">New Employee Resources</p>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#timesheet_leave_comp"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">  
-                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#timesheet_leave_comp">Timesheet, Leave &amp; Compensation</a></p>
-                                            </div></a>
+                                            <a href="#timesheet_leave_comp">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">  
+                                                    <p className="text-lg text-gray-100 font-bold text-center">Timesheet, Leave &amp; Compensation</p>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#wellness_training"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
-                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#wellness_training">Wellness &amp; Training</a></p>
-                                            </div></a>
+                                            <a href="#wellness_training">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                    <p className="text-lg text-gray-100 font-bold text-center">Wellness &amp; Training</p>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                     
@@ -425,7 +424,7 @@ export default function HrFinance(){
                         
 
                         {/* <--------------- Start Right Panel --------------> */}
-                        <div className="w-3/12 flex flex-col items-center mt-10 border-l-2 border-gray-300 pl-4 mr-4"> 
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-l-2 border-gray-300 px-4"> 
                             <div className="flex flex-col items-center justify-center w-full mx-4">
                                 <div className="flex items-center justify-center mt-4 mb-8">
                                     <a className="px-2" href="http://www.facebook.com/WSHFC" target="blank">
@@ -446,8 +445,23 @@ export default function HrFinance(){
                                     </a>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center justify-center w-full mt-4 mx-4">
-                                <a class="twitter-timeline" data-height="300" href="https://twitter.com/WSHFC?ref_src=twsrc%5Etfw">Tweets by WSHFC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
+                                    <h2 className="text-sm md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
+                            </div>
+                            <div className="pl-7 py-4 bg-gray-200 flex w-full text-gray-700">                        
+                                <ul className="text-xs md:text-lg text-center">
+                                        <li>Timesheet</li>
+                                        <li>Homebase</li>
+                                        <li>WSHFC</li>
+                                        <li>WHEFA</li>
+                                        <li>TSA</li>
+                                        <li>Pictorial Guide</li>
+                                        <li>ESS Login</li>
+                                </ul>
+                                
+                            </div>
+                            <div className="flex flex-col">
+                                {/* <iframe width="1000" height="900" src="https://outlook.office365.com/owa/calendar/f1d1282ff21746c9b4caeba67ab84207@wshfc.org/64961be2d3c34d5c8918d07dc215344e10856728753962429613/calendar.html"></iframe> */}
                             </div>
                         </div>
                         {/* <--------------- End Right Panel --------------> */}
@@ -497,8 +511,7 @@ export default function HrFinance(){
 
             </div>
              {/* <--------------- End Body --------------> */}
-
+            
         </div>
-
     )
 }
