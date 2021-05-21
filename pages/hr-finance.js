@@ -115,7 +115,7 @@ export default function HrFinance(){
                                         />
                                     </a>
                                 </div>
-
+                               
                                 <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
                                     <h2 className="text-md md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
                                 </div>
@@ -426,7 +426,27 @@ export default function HrFinance(){
 
                         {/* <--------------- Start Right Panel --------------> */}
                         <div className="w-3/12 flex flex-col items-center mt-10 border-l-2 border-gray-300 pl-4 mr-4"> 
-                            <div className="flex flex=col items-center justify-center w-full mt-4 mx-4">
+                            <div className="flex flex-col items-center justify-center w-full mx-4">
+                                <div className="flex items-center justify-center mt-4 mb-8">
+                                    <a className="px-2" href="http://www.facebook.com/WSHFC" target="blank">
+                                        <Image 
+                                            src="/images/facebook.png"
+                                            alt="name" 
+                                            width={75}
+                                            height={75}
+                                        />
+                                    </a>
+                                    <a className="px-2" href="https://twitter.com/WSHFC" target="blank">
+                                        <Image 
+                                            src="/images/twitter.png"
+                                            alt="name" 
+                                            width={75}
+                                            height={75}
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-center justify-center w-full mt-4 mx-4">
                                 <a class="twitter-timeline" data-height="300" href="https://twitter.com/WSHFC?ref_src=twsrc%5Etfw">Tweets by WSHFC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </div>
                         </div>
