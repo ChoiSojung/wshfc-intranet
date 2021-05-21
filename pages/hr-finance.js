@@ -15,13 +15,14 @@ export default function HrFinance(){
     return (
 
         <div>
+
             <Head>
                 <title>WSHFC | Intranet</title>
             </Head>
 
-            {/* <--------------- Body --------------> */}
-            <div className="bg-gray-100 font-sans flex flex-col items-center">
-                
+             {/* <--------------- Body --------------> */}
+            <div className="bg-gray-100 flex flex-col items-center">
+
 
                 {/* <------------ Header -----------> */}
                 <div className="bg-blue-900 w-full px-4 py-3 flex justify-center border-b-4 border-blue-500">
@@ -72,40 +73,54 @@ export default function HrFinance(){
                         </div>
 
                     </div>
-                    
                 </div>
                 <div className="flex flex-col items-center w-full bg-green-600">
-                <div className="max-w-6xl mx-4">
-                    <div className="flex flex-col justify-center items-center"> 
-                        <h1 className="py-2 mt-4 text-4xl text-gray-100 border-b border-white">
-                            Human Resources &amp; Finance
-                        </h1>
-                        <p className="text-center py-2 mb-4 text-xl text-gray-100">
-                            Find HR documents for both managers and employees, new employees, as well as timesheets, leave, compensation and training resources.
-                        </p>
+                    <div className="max-w-6xl mx-4">
+                        <div className="flex flex-col justify-center items-center"> 
+                            <h1 className="py-2 mt-4 text-4xl text-gray-100 border-b border-white">
+                                Human Resources &amp; Finance
+                            </h1>
+                            <p className="text-center py-2 mb-4 text-xl text-gray-100">
+                                Find HR documents for both managers and employees, new employees, as well as timesheets, leave, compensation and training resources.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
                 {/* <--------- End Header ---------> */}
 
 
-                {/* <------------ Main ------------> */}
-                <div className="mt-8 px-4 w-full flex flex-col items-center">
-                    <div className="max-w-6xl w-full mx-4">
-                        <div className="flex flex-row">
-
-                            {/* <-------------- Sidenav --------------> */}
-                            <div className="flex flex-col w-80 border-r-2 border-gray-300 pr-4">
-                                <div className="text-gray-700 bg-gray-300 py-2 flex flex-row justify-center items-center">
-                                    <h2 className="text-xl font-bold mr-2 whitespace-nowrap">Quick Links</h2>
-                                    {/* <button>
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                                        </svg>
-                                    </button> */}
+                <div className="max-w-7xl w-full flex justify-center">
+                    <div className="flex flex-row w-full">
+                         {/* <--------------- Start Left Panel --------------> */}
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 pr-4 ml-4">
+                            <div className="flex flex-col items-center justify-center w-full mx-4">
+                                <div className="flex items-center justify-center mt-4">
+                                    <a href="https://www.soundtransit.org/" target="blank">
+                                        <Image 
+                                            src="/images/sound_transit.svg"
+                                            alt="name" 
+                                            width={155}
+                                            height={25}
+                                        />
+                                    </a>
                                 </div>
-                                <div className="pl-7 py-4 bg-gray-200 text-gray-700 whitespace-nowrap">                        
-                                    <ul className="list-disc list-inside text-lg">
+
+                                <div className="flex items-center justify-center">
+                                    <a href="https://wsdot.wa.gov/" target="blank">
+                                        <Image 
+                                            src="/images/WSDOT.png"
+                                            alt="name" 
+                                            width={100}
+                                            height={100}
+                                        />
+                                    </a>
+                                </div>
+
+                                <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
+                                    <h2 className="text-md md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
+                                </div>
+                                <div className="pl-7 py-4 bg-gray-200 flex w-full text-gray-700">                        
+                                    <ul className="list-disc list-inside text-xs md:text-lg">
                                             <li>Timesheet</li>
                                             <li>Homebase</li>
                                             <li>WSHFC</li>
@@ -114,275 +129,315 @@ export default function HrFinance(){
                                             <li>Pictorial Guide</li>
                                             <li>ESS Login</li>
                                     </ul>
-                                </div>
-                            </div>
-                            {/* <------------ End Sidenav ------------> */}
-
-                            {/* <------------ Page Content ------------> */}
-                            <div className="pl-6">
-                                <p className="text-2xl mt-4 text-gray-600 font-bold">Jump to a section</p>
-                                <ul className="list-disc list-inside ml-4 text-gray-700">
-                                        <li><a href="#manager_resources">Manager Resources</a></li>
-                                        <li><a href="#employee_resources">New Employee Resources</a></li>
-                                        <li><a href="#timesheet_leave_comp">Timesheet, Leave &amp; Compensation</a></li>
-                                        <li><a href="#wellness_training">Wellness &amp; Training</a></li>
-                                </ul>
-                            
-                                <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="h-full flex flex-col items-center md:mx-2">
-                                            <Image
-                                                src="/images/PtAngeles-sep2019-6081.jpg"
-                                                alt="name" 
-                                                width={600}
-                                                height={400}
-                                            />
-                                            <p className="text-md italic">Caption</p>
-                                        </div>
-                                    </div>
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="h-full flex flex-col items-center md:mx-2">
-                                            <Image
-                                                src="/images/Liberty_Bank_opening.jpg"
-                                                alt="name" 
-                                                width={600}
-                                                height={400}
-                                            />
-                                            <p className="text-md italic">Caption</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div className="bg-green-600 mt-16 p-2">
-                                    <h2 className="text-2xl text-gray-100 text-center" id="manager_resources">Manager Resources</h2>
-                                </div>
-                                
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Commission Job</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul className="">
-                                                    <li>Classification Policy</li>
-                                                    <li>Exempt Banding Policy</li>
-                                                    <li>Salary Determination</li>
-                                                    <li>Washington Management Services</li>
-                                                    <li>Position Description General Service</li>
-                                                    <li>Position Description</li>
-                                                    <li>State Employment Application</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Hiring</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Hiring</li>
-                                                    <li>Orientation Procedures</li>
-                                                    <li>Position Description General Service</li>
-                                                    <li>Reduction in Force</li>
-                                                    <li>Temporary Help</li>
-                                                    <li>Reference Check Release</li>
-                                                    <li>State Employment Application</li>
-                                                    <li>Jobs</li>
-                                                    <li>Contracting</li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">For the Employer</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Deputy Director Orientation Checklist</li>
-                                                    <li>Intranet Checklist</li>
-                                                    <li>New Employee Request</li>
-                                                    <li>Personnel Orientation Checklist</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Miscellaneous</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Exemption Request</li>
-                                                    <li>Frontline Supervisor Newsletter</li>
-                                                    <li>Great Job Program</li>
-                                                    <li>Discipline Policy</li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-full">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Evaluations</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Performance Evaluations</li>
-                                                    <li>Performance Management</li>
-                                                    <li>Performance and Development Plan</li>
-                                                    <li>Performance Management Competency Examples</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="bg-green-600 mt-16 p-2">
-                                    <h2 className="text-2xl text-gray-100 text-center" id="employee_resources">New Employee Resources</h2>
-                                </div>
-
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Internal Resources</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Pictorial Guide</li>
-                                                    <li>About the Commission</li>
-                                                    <li>New Hire HR Packet</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">External Links</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>WA State HR Page</li>
-                                                    <li>Health Coverage</li>
-                                                    <li>Frontline Employee Newsletter</li>
-                                                    <li>Retirement</li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div className="bg-green-600 mt-16 p-2">
-                                    <h2 className="text-2xl text-gray-100 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
-                                </div>
-                                
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Leave</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Leave/Overtime Request</li>
-                                                    <li>Employee Self Service</li>
-                                                    <li>Shared Leave Medical Certificate</li>
-                                                    <li>Shared Leave Recipient Request</li>
-                                                    <li>Shared Leave Donor Request</li>                              
-                                                    <li>Uniformed Service Shared Leave Pool</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Travel</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Travel Authorization (Advance)</li>
-                                                    <li>Travel Expense Voucher</li>
-                                                    <li>Travel Itinerary</li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="bg-green-600 mt-16 p-2">
-                                    <h2 className="text-2xl text-gray-100 text-center" id="wellness_training">Wellness &amp; Training</h2>
-                                </div>
-
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Required Training</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Hiring</li>
-                                                    <li>Orientation Procedures</li>
-                                                    <li>Position Description General Service</li>
-                                                    <li>Reduction in Force</li>
-                                                    <li>Temporary Help</li>
-                                                    <li>Reference Check Release</li>
-                                                    <li>State Employment Application</li>
-                                                    <li>Jobs</li>
-                                                    <li>Contracting</li>
-                                                </ul>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="mt-4 md:w-1/2">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Additional Training</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Performance Evaluations</li>
-                                                    <li>Performance Management</li>
-                                                    <li>Performance and Development Plan</li>
-                                                    <li>Performance Management Competency Examples</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex flex-col md:flex-row md:-mx-2">
-                                    <div className="mt-4 md:w-full">
-                                        <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                            <div className="font-bold text-gray-700 text-lg">Wellness</div>
-                                            <div className="mt-4 text-green-600 text-md text-center">
-                                                <ul>
-                                                    <li>Hiring</li>
-                                                    <li>Orientation Procedures</li>
-                                                    <li>Position Description General Service</li>
-                                                    <li>Reduction in Force</li>
-                                                    <li>Temporary Help</li>
-                                                    <li>Reference Check Release</li>
-                                                    <li>State Employment Application</li>
-                                                    <li>Jobs</li>
-                                                    <li>Contracting</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
-                        {/* <------------ End Page Content ------------> */}
-              
+                         {/* <--------------- End Left Panel --------------> */}
+
+
+                         {/* <--------------- Start Main --------------> */}
+                        <div className="w-full flex flex-col items-center mt-10"> 
+                            <div className="max-w-6x1 w-full mx-4">
+                                {/* <------------ Page Content ------------> */}
+                                <div className="px-6">
+                                    <p className="text-3xl mt-4 text-gray-600 font-bold pb-2 border-b-2 border-gray-500">Jump to a section</p>
+
+                                    <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-2 md:w-1/2">
+                                            <a href="#manager_resources"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#manager_resources">Manager Resources</a></p>
+                                            </div></a>
+                                        </div>
+                                        <div className="mt-2 md:w-1/2">
+                                            <a href="#employee_resources"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#employee_resources">New Employee Resources</a></p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-2 md:w-1/2">
+                                            <a href="#timesheet_leave_comp"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">  
+                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#timesheet_leave_comp">Timesheet, Leave &amp; Compensation</a></p>
+                                            </div></a>
+                                        </div>
+                                        <div className="mt-2 md:w-1/2">
+                                            <a href="#wellness_training"><div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2">
+                                                <p className="text-lg text-gray-100 font-bold text-center"><a href="#wellness_training">Wellness &amp; Training</a></p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                    
+                                
+                                    <div className="mt-10 flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="h-full flex flex-col items-center md:mx-2">
+                                                <Image
+                                                    src="/images/PtAngeles-sep2019-6081.jpg"
+                                                    alt="name" 
+                                                    width={600}
+                                                    height={400}
+                                                />
+                                                <p className="text-md italic">Caption</p>
+                                            </div>
+                                        </div>
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="h-full flex flex-col items-center md:mx-2">
+                                                <Image
+                                                    src="/images/Liberty_Bank_opening.jpg"
+                                                    alt="name" 
+                                                    width={600}
+                                                    height={400}
+                                                />
+                                                <p className="text-md italic">Caption</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div className="bg-green-600 mt-16 p-2">
+                                        <h2 className="text-2xl text-gray-100 text-center" id="manager_resources">Manager Resources</h2>
+                                    </div>
+                                    
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Commission Job</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Classification Policy</li>
+                                                        <li>Exempt Banding Policy</li>
+                                                        <li>Salary Determination</li>
+                                                        <li>Washington Management Services</li>
+                                                        <li>Position Description General Service</li>
+                                                        <li>Position Description</li>
+                                                        <li>State Employment Application</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Hiring</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Hiring</li>
+                                                        <li>Orientation Procedures</li>
+                                                        <li>Position Description General Service</li>
+                                                        <li>Reduction in Force</li>
+                                                        <li>Temporary Help</li>
+                                                        <li>Reference Check Release</li>
+                                                        <li>State Employment Application</li>
+                                                        <li>Jobs</li>
+                                                        <li>Contracting</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">For the Employer</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Deputy Director Orientation Checklist</li>
+                                                        <li>Intranet Checklist</li>
+                                                        <li>New Employee Request</li>
+                                                        <li>Personnel Orientation Checklist</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-center">Miscellaneous</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Exemption Request</li>
+                                                        <li>Frontline Supervisor Newsletter</li>
+                                                        <li>Great Job Program</li>
+                                                        <li>Discipline Policy</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-full">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Evaluations</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Performance Evaluations</li>
+                                                        <li>Performance Management</li>
+                                                        <li>Performance and Development Plan</li>
+                                                        <li>Performance Management Competency Examples</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="bg-green-600 mt-16 p-2">
+                                        <h2 className="text-2xl text-gray-100 text-center" id="employee_resources">New Employee Resources</h2>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Internal Resources</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Pictorial Guide</li>
+                                                        <li>About the Commission</li>
+                                                        <li>New Hire HR Packet</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">External Links</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>WA State HR Page</li>
+                                                        <li>Health Coverage</li>
+                                                        <li>Frontline Employee Newsletter</li>
+                                                        <li>Retirement</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="bg-green-600 mt-16 p-2">
+                                        <h2 className="text-2xl text-gray-100 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
+                                    </div>
+                                    
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Leave</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Leave/Overtime Request</li>
+                                                        <li>Employee Self Service</li>
+                                                        <li>Shared Leave Medical Certificate</li>
+                                                        <li>Shared Leave Recipient Request</li>
+                                                        <li>Shared Leave Donor Request</li>                              
+                                                        <li>Uniformed Service Shared Leave Pool</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Travel</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Travel Authorization (Advance)</li>
+                                                        <li>Travel Expense Voucher</li>
+                                                        <li>Travel Itinerary</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="bg-green-600 mt-16 p-2">
+                                        <h2 className="text-2xl text-gray-100 text-center" id="wellness_training">Wellness &amp; Training</h2>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Required Training</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Hiring</li>
+                                                        <li>Orientation Procedures</li>
+                                                        <li>Position Description General Service</li>
+                                                        <li>Reduction in Force</li>
+                                                        <li>Temporary Help</li>
+                                                        <li>Reference Check Release</li>
+                                                        <li>State Employment Application</li>
+                                                        <li>Jobs</li>
+                                                        <li>Contracting</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Additional Training</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Performance Evaluations</li>
+                                                        <li>Performance Management</li>
+                                                        <li>Performance and Development Plan</li>
+                                                        <li>Performance Management Competency Examples</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-full">
+                                            <div className="bg-gray-200 h-full p-8 border-b-4 border-green-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Wellness</div>
+                                                <div className="mt-4 text-green-600 text-md text-center">
+                                                    <ul>
+                                                        <li>Hiring</li>
+                                                        <li>Orientation Procedures</li>
+                                                        <li>Position Description General Service</li>
+                                                        <li>Reduction in Force</li>
+                                                        <li>Temporary Help</li>
+                                                        <li>Reference Check Release</li>
+                                                        <li>State Employment Application</li>
+                                                        <li>Jobs</li>
+                                                        <li>Contracting</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                {/* <------------ End Page Content ------------> */}
+
+                            </div>
+                        </div>
+                        {/* <--------------- End Main --------------> */}
+                        
+
+                        {/* <--------------- Start Right Panel --------------> */}
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-l-2 border-gray-300 pl-4 mr-4"> 
+                            <div className="flex flex=col items-center justify-center w-full mt-4 mx-4">
+                                <a class="twitter-timeline" data-height="300" href="https://twitter.com/WSHFC?ref_src=twsrc%5Etfw">Tweets by WSHFC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                        {/* <--------------- End Right Panel --------------> */}
                     </div>
-                    
                 </div>
-                {/* <---------- End Main ----------> */}
+
                 <div className="fixed right-2 bottom-5">
                     <ScrollToTop></ScrollToTop>
                 </div>
+
                 {/* <----------- Footer -----------> */}
                 <div className="bg-blue-900 py-12 mt-12 w-full flex flex-col items-center border-t-4 border-blue-500 text-lg text-gray-100">
                     <h2 className="font-bold text-xl mt-4">Send us your suggestions!</h2>
@@ -418,8 +473,10 @@ export default function HrFinance(){
                 
                 {/* <---------- End Footer ---------> */}
 
+
+
             </div>
-            {/* <----------- End Body --------------> */}
+             {/* <--------------- End Body --------------> */}
 
         </div>
 
