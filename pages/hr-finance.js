@@ -115,22 +115,11 @@ export default function HrFinance(){
                                         />
                                     </a>
                                 </div>
+                                <div className="flex flex-col items-center justify-center w-full mt-4 mx-4">
+                                    <a class="twitter-timeline" data-height="600" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
                                
-                                <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
-                                    <h2 className="text-md md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
-                                </div>
-                                <div className="pl-7 py-4 bg-gray-200 flex w-full text-gray-700">                        
-                                    <ul className="list-disc list-inside text-xs md:text-lg">
-                                            <li>Timesheet</li>
-                                            <li>Homebase</li>
-                                            <li>WSHFC</li>
-                                            <li>WHEFA</li>
-                                            <li>TSA</li>
-                                            <li>Pictorial Guide</li>
-                                            <li>ESS Login</li>
-                                    </ul>
-                                    
-                                </div>
+                                
                             </div>
                         </div>
                          {/* <--------------- End Left Panel --------------> */}
@@ -446,8 +435,20 @@ export default function HrFinance(){
                                     </a>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center justify-center w-full mt-4 mx-4">
-                                <a class="twitter-timeline" data-height="300" href="https://twitter.com/WSHFC?ref_src=twsrc%5Etfw">Tweets by WSHFC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <div className="text-gray-100 bg-gray-500 w-full py-2 flex flex-row justify-center items-center">
+                                    <h2 className="text-md md:text-xl font-bold whitespace-nowrap">Quick Links</h2>
+                            </div>
+                            <div className="pl-7 py-4 bg-gray-200 flex w-full text-gray-700">                        
+                                <ul className="list-disc list-inside text-xs md:text-lg">
+                                        <li>Timesheet</li>
+                                        <li>Homebase</li>
+                                        <li>WSHFC</li>
+                                        <li>WHEFA</li>
+                                        <li>TSA</li>
+                                        <li>Pictorial Guide</li>
+                                        <li>ESS Login</li>
+                                </ul>
+                                
                             </div>
                         </div>
                         {/* <--------------- End Right Panel --------------> */}
