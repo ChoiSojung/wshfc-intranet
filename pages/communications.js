@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
+import ContentBlock from '../components/ContentBlock'
 
 export default function Communications(){
     const [isOpen, setisOpen] = React.useState(false)
@@ -23,22 +24,22 @@ export default function Communications(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-gray-300 flex flex-col items-center">
+            <div className="bg-blue-350 flex flex-col items-center">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
 
-                <div className="flex flex-col items-center w-full bg-red-700">
+                <div className="flex flex-col items-center w-full bg-red-450">
                     <div className="max-w-6xl mx-4">
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/communications">
                                 <a>
-                                    <h1 className="hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-gray-100 border-b border-gray-100">
                                         Communications
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 mb-4 text-lg text-gray-100">
+                            <p className="text-center py-2 mb-4 text-xl text-gray-100">
                                 Find documents/guidelines for marketing, templates, logos, styleguides, publications and social media polices.
                             </p>
                         </div>
@@ -47,11 +48,11 @@ export default function Communications(){
                 {/* <--------- End Header ---------> */}
 
 
-                <div className="max-w-7xl w-full flex justify-center bg-gray-300">
+                <div className="max-w-7xl w-full flex justify-center bg-gray-300 shadow-xl">
                     <div className="flex flex-row w-full md:flex-row max-h-screen">
                          {/* <--------------- Start Left Panel --------------> */}
-                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 px-2 mx-6 hidden md:block">
-                            <div className="flex flex-col items-center justify-center w-full mx-4">
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 px-2 mx-2 hidden md:block">
+                            <div className="flex flex-col items-center justify-center w-full">
                                 <div className="flex items-center justify-center mt-4">
                                     <a href="https://www.soundtransit.org/" target="blank">
                                         <Image 
@@ -73,7 +74,7 @@ export default function Communications(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2">
+                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                                 </div>
                                
@@ -84,24 +85,24 @@ export default function Communications(){
 
 
                          {/* <--------------- Start Main --------------> */}
-                        <div className="w-full flex flex-col items-center mt-10 bg-gray-200 overflow-y-auto h-5/6"> 
+                        <div className="w-full flex flex-col items-center mt-10 bg-gray-200 overflow-y-auto h-5/6 shadow-2xl"> 
                             <div className="max-w-6x1 w-full mx-4">
                                 {/* <------------ Page Content ------------> */}
                                 <div className="px-6">
-                                    <p className="text-2xl mt-4 text-gray-600 font-bold pb-2 border-b-2 border-gray-500">Jump to a section</p>
+                                    <p className="font-serif text-2xl mt-4 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                                     <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
                                             <a href="#templates_logos">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">Templates &amp; Logos</p>
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Templates &amp; Logos</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
                                             <a href="#marketing_social">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">Marketing &amp; Social Media</p>
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Marketing &amp; Social Media</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -109,15 +110,15 @@ export default function Communications(){
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
                                             <a href="#guides_publications">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">  
-                                                    <p className="text-md text-gray-100 font-bold text-center">Guides &amp; Publications</p>
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">  
+                                                    <p className="text-md font-bold text-gray-100 text-center">Guides &amp; Publications</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
                                             <a href="#communications_plan">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">Communications Plan</p>
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Communications Plan</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -150,77 +151,68 @@ export default function Communications(){
                                     </div>
 
                                     
-                                    <div className="bg-red-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="templates_logos">Templates &amp; Logos</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="templates_logos">Templates &amp; Logos</h2>
                                     </div>
                                     
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className=" bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className=" bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Templates</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Classification Policy</li>
-                                                        <li>Exempt Banding Policy</li>
-                                                        <li>Salary Determination</li>
-                                                        <li>Washington Management Services</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Position Description</li>
-                                                        <li>State Employment Application</li>
+                                                        <li>Letterheads</li>
+                                                        <li>Powerpoints</li>
+                                                        <li>Memos</li>
+                                                        <li>Commission Agenda Sample</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Logos</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Hiring</li>
-                                                        <li>Orientation Procedures</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Reduction in Force</li>
-                                                        <li>Temporary Help</li>
-                                                        <li>Reference Check Release</li>
-                                                        <li>State Employment Application</li>
-                                                        <li>Jobs</li>
-                                                        <li>Contracting</li>
+                                                        <li>WSHFC</li>
+                                                        <li>WHEFA</li>
+                                                        <li>TSA</li>
                                                     </ul>
                                                     
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
 
-                                    <div className="bg-red-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="marketing_social">Marketing &amp; Social Media</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="marketing_social">Marketing &amp; Social Media</h2>
                                     </div>
 
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Marketing Materials</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Pictorial Guide</li>
-                                                        <li>About the Commission</li>
-                                                        <li>New Hire HR Packet</li>
+                                                        <li>Homeownership</li>
+                                                        <li>Multifamily</li>
+                                                        <li>Asset Management &amp; Compliance</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Social Media</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>WA State HR Page</li>
-                                                        <li>Health Coverage</li>
-                                                        <li>Frontline Employee Newsletter</li>
-                                                        <li>Retirement</li>
+                                                        <li>Web Content and Social Media Use</li>
+                                                        <li>Facebook</li>
+                                                        <li>Twitter</li>
+                                                        <li>Instagram</li>
+                                                        <li>YouTube</li>
                                                     </ul>
                                                     
                                                 </div>
@@ -228,35 +220,33 @@ export default function Communications(){
                                         </div>
                                     </div>
                                     
-                                    <div className="bg-red-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="guides_publications">Guides &amp; Publications</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="guides_publications">Guides &amp; Publications</h2>
                                     </div>
                                     
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Guides</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Leave/Overtime Request</li>
-                                                        <li>Employee Self Service</li>
-                                                        <li>Shared Leave Medical Certificate</li>
-                                                        <li>Shared Leave Recipient Request</li>
-                                                        <li>Shared Leave Donor Request</li>                              
-                                                        <li>Uniformed Service Shared Leave Pool</li>
+                                                        <li>Graphic Standards Guide</li>
+                                                        <li>To Hyphenate or Not to Hyphenate</li>
+                                                        <li>Styleguide</li>
+                                                        <li>Quick Style Sheet for Contractors</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Publications</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Travel Authorization (Advance)</li>
-                                                        <li>Travel Expense Voucher</li>
-                                                        <li>Travel Itinerary</li>
+                                                        <li>Annual/Impact Reports</li>
+                                                        <li>Commission Newsletters</li>
+                                                        <li>History Books</li>
                                                     </ul>
                                                     
                                                 </div>
@@ -264,25 +254,17 @@ export default function Communications(){
                                         </div>
                                     </div>
 
-                                    <div className="bg-red-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="communications_plan">Communications Plan</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="communications_plan">Communications Plan</h2>
                                     </div>
 
-                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                    <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                                         <div className="mt-4 md:w-full">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Communications Plan</div>
-                                                <div className="mt-4 text-red-700 text-md text-center">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center"></div>
+                                                <div className="mt-4 text-red-450 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Hiring</li>
-                                                        <li>Orientation Procedures</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Reduction in Force</li>
-                                                        <li>Temporary Help</li>
-                                                        <li>Reference Check Release</li>
-                                                        <li>State Employment Application</li>
-                                                        <li>Jobs</li>
-                                                        <li>Contracting</li>
+                                                        <li>Communications Plan</li>
                                                     </ul>
                                                     
                                                 </div>
@@ -320,10 +302,10 @@ export default function Communications(){
                                     </a>
                                 </div>
                             </div>
-                            <div className="text-gray-100 bg-blue-900 w-full py-2 px-0 md:px-2 flex flex-row justify-center items-center">
-                                    <h2 className="text-xs md:text-lg whitespace-nowrap text-base text-center">Quick Links</h2>
+                            <div className="text-gray-100 bg-blue-450 w-full py-2 px-0 md:px-2 flex flex-row justify-center items-center">
+                                    <h2 className="font-serif text-xs md:text-xl whitespace-nowrap text-base text-center">Quick Links</h2>
                             </div>
-                            <div className="py-4 px-2 bg-gray-100 flex w-full items-center justify-center text-gray-700">                        
+                            <div className="py-4 px-2 mb-4 bg-gray-100 flex w-full items-center justify-center text-gray-700">                        
                                 <ul className="text-xs md:text-lg text-center">
                                         <a className="hover:underline" href=""><li>Timesheet</li></a>
                                         <a className="hover:underline" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
