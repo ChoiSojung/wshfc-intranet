@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return(
-        <div className="bg-blue-900 w-full px-4 py-3 flex justify-center border-b-4 border-blue-500">
+        <div className="bg-blue-450 w-full px-4 py-3 flex justify-center border-b-4 border-gray-450">
             <div className="max-w-6xl w-full">
 
 
@@ -31,7 +31,7 @@ export default function Header() {
                     <div className="max-w-md w-full">
                         <form className="px-4">
                             <label className="hidden" htmlFor="search-form">Search</label>
-                            <input className="bg-gray-100 border-2 focus:border-orange p-1 rounded-lg shadow-inner w-full" placeholder="What are you looking for?" type="text"/>
+                            <input className="bg-red-350 text-gray-200 placeholder-gray-200 border-2 focus:border-orange p-1 rounded-lg shadow-inner w-full" placeholder="What are you looking for?" type="text"/>
                                 <button className="hidden">Submit</button>
                         </form>
                     </div>
@@ -50,7 +50,7 @@ export default function Header() {
 
                 <div className="my-4 lg:flex lg:w-full lg:max-w-6xl md:max-w-6xl lg:items-center lg:justify-center lg:w-auto w-full" id="menu">
                     <nav className={`lg:flex ${ isOpen? "block": "hidden"}`}>
-                        <ul className="whitespace-nowrap lg:flex items-center justify-between text-base pt-4 lg:pt-0 text-gray-100 text-xl">
+                        <ul className="font-serif whitespace-nowrap lg:flex items-center justify-between text-base pt-4 lg:pt-0 text-gray-100 text-xl">
                             <li><Link href="/about"><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-blue-400">About Us</a></Link></li>
                             <li><Link href="/hr-finance"><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-blue-400">HR &amp; Finance</a></Link></li>
                             <li><Link href="/it"><a className="inline-block lg:p-4 py-3 px-0 mx-2 block border-b-2 border-transparent hover:border-blue-400">Information Technology</a></Link></li>

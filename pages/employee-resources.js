@@ -23,22 +23,22 @@ export default function EmployeeResources(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-gray-300 flex flex-col items-center">
+            <div className="bg-blue-350 flex flex-col items-center">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
 
-                <div className="flex flex-col items-center w-full bg-blue-700">
+                <div className="flex flex-col items-center w-full bg-blue-600">
                     <div className="max-w-6xl mx-4">
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/employee-resources">
                                 <a>
-                                    <h1 className="hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-gray-100 border-b border-gray-100">
                                         Employee Resources
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 mb-4 text-lg text-gray-100">
+                            <p className="text-center py-2 mb-4 text-xl text-gray-100">
                                 Find documents/guidelines regarding conduct, evaluations, employee recognition, work resources, facilities and training opportunities.
                             </p>
                         </div>
@@ -47,11 +47,11 @@ export default function EmployeeResources(){
                 {/* <--------- End Header ---------> */}
 
 
-                <div className="max-w-7xl w-full flex justify-center bg-gray-300">
+                <div className="max-w-7xl w-full flex justify-center bg-gray-300 shadow-xl">
                     <div className="flex flex-row w-full md:flex-row max-h-screen">
                          {/* <--------------- Start Left Panel --------------> */}
-                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 px-2 mx-6 hidden md:block">
-                            <div className="flex flex-col items-center justify-center w-full mx-4">
+                        <div className="w-3/12 flex flex-col items-center mt-10 border-r-2 border-gray-300 px-2 mx-2 hidden md:block">
+                            <div className="flex flex-col items-center justify-center w-full">
                                 <div className="flex items-center justify-center mt-4">
                                     <a href="https://www.soundtransit.org/" target="blank">
                                         <Image 
@@ -73,7 +73,7 @@ export default function EmployeeResources(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2">
+                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                                 </div>
                                
@@ -84,40 +84,40 @@ export default function EmployeeResources(){
 
 
                          {/* <--------------- Start Main --------------> */}
-                        <div className="w-full flex flex-col items-center mt-10 bg-gray-200 overflow-y-auto h-5/6"> 
+                        <div className="w-full flex flex-col items-center mt-10 bg-gray-200 overflow-y-auto h-5/6 shadow-2xl"> 
                             <div className="max-w-6x1 w-full mx-4">
                                 {/* <------------ Page Content ------------> */}
                                 <div className="px-6">
-                                    <p className="text-2xl mt-4 text-gray-600 font-bold pb-2 border-b-2 border-gray-500">Jump to a section</p>
+                                    <p className="font-serif text-2xl mt-4 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                                     <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#manager_resources">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">Manager Resources</p>
+                                            <a href="#work_resources">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Work Resources</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#employee_resources">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">New Employee Resources</p>
+                                            <a href="#facilities">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Facilities</p>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#timesheet_leave_comp">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">  
-                                                    <p className="text-md text-gray-100 font-bold text-center">Timesheet, Leave &amp; Compensation</p>
+                                            <a href="#conduct_evaluations">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">  
+                                                    <p className="text-md font-bold text-gray-100 text-center">Conduct &amp; Evaluations</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <div className="mt-2 md:w-1/2">
-                                            <a href="#wellness_training">
-                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-500 rounded-lg p-2 hover:bg-blue-400">
-                                                    <p className="text-md text-gray-100 font-bold text-center">Wellness &amp; Training</p>
+                                            <a href="#recognition_training">
+                                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
+                                                    <p className="text-md font-bold text-gray-100 text-center">Recognition &amp; Training</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -150,54 +150,27 @@ export default function EmployeeResources(){
                                     </div>
 
                                     
-                                    <div className="bg-blue-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="manager_resources">Manager Resources</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="work_resources">Work Resources</h2>
                                     </div>
                                     
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className=" bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Commission Job</div>
+                                            <div className=" bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Alternative Work Schedule</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
-                                                        <li>Classification Policy</li>
-                                                        <li>Exempt Banding Policy</li>
-                                                        <li>Salary Determination</li>
-                                                        <li>Washington Management Services</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Position Description</li>
-                                                        <li>State Employment Application</li>
+                                                        <li>Alternative Work Schedule Request</li>
+                                                        <li>Telecommute Application</li>
+                                                        <li>Telecommute Equipment Agreement</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Hiring</div>
-                                                <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
-                                                        <li>Hiring</li>
-                                                        <li>Orientation Procedures</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Reduction in Force</li>
-                                                        <li>Temporary Help</li>
-                                                        <li>Reference Check Release</li>
-                                                        <li>State Employment Application</li>
-                                                        <li>Jobs</li>
-                                                        <li>Contracting</li>
-                                                    </ul>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div className="flex flex-col md:flex-row md:-mx-2">
-                                        <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">For the Employer</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Infants at Work</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Deputy Director Orientation Checklist</li>
@@ -205,50 +178,45 @@ export default function EmployeeResources(){
                                                         <li>New Employee Request</li>
                                                         <li>Personnel Orientation Checklist</li>
                                                     </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Evaluations</div>
-                                                <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
-                                                        <li>Performance Evaluations</li>
-                                                        <li>Performance Management</li>
-                                                        <li>Performance and Development Plan</li>
-                                                        <li>Performance Management Competency Examples</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex flex-col md:flex-row md:-mx-2">
-                                        <div className="mt-4 md:w-full">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Miscellaneous</div>
-                                                <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
-                                                        <li>Exemption Request</li>
-                                                        <li>Frontline Supervisor Newsletter</li>
-                                                        <li>Great Job Program</li>
-                                                        <li>Discipline Policy</li>
-                                                    </ul>
                                                     
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="bg-blue-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="employee_resources">New Employee Resources</h2>
                                     </div>
 
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Internal Resources</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Remote Access</div>
+                                                <div className="mt-4 text-blue-700 text-md text-center">
+                                                    <ul className="list-decimal list-inside">
+                                                        <li>Remote Access Policy Acceptance</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Reasonable Accomodation</div>
+                                                <div className="mt-4 text-blue-700 text-md text-center">
+                                                    <ul className="list-decimal list-inside">
+                                                        <li>Accommodation Request</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="facilities">Facilities</h2>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Equipment and Office Supplies</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Pictorial Guide</li>
@@ -260,8 +228,8 @@ export default function EmployeeResources(){
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">External Links</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Purchasing and Ordering</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>WA State HR Page</li>
@@ -274,15 +242,60 @@ export default function EmployeeResources(){
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Conference/Board Rooms</div>
+                                                <div className="mt-4 text-blue-700 text-md text-center">
+                                                    <ul className="list-decimal list-inside">
+                                                        <li>Pictorial Guide</li>
+                                                        <li>About the Commission</li>
+                                                        <li>New Hire HR Packet</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-4 md:w-1/2">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Facility Updates</div>
+                                                <div className="mt-4 text-blue-700 text-md text-center">
+                                                    <ul className="list-decimal list-inside">
+                                                        <li>WA State HR Page</li>
+                                                        <li>Health Coverage</li>
+                                                        <li>Frontline Employee Newsletter</li>
+                                                        <li>Retirement</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                        <div className="mt-4 md:w-full">
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Building Information</div>
+                                                <div className="mt-4 text-blue-700 text-md text-center">
+                                                    <ul className="list-decimal list-inside">
+                                                        <li>Pictorial Guide</li>
+                                                        <li>About the Commission</li>
+                                                        <li>New Hire HR Packet</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div className="bg-blue-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="conduct_evaluations">Conduct &amp; Evaluations</h2>
                                     </div>
                                     
                                     <div className="flex flex-col md:flex-row md:-mx-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Leave</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Conduct/Expectations</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Leave/Overtime Request</li>
@@ -297,8 +310,8 @@ export default function EmployeeResources(){
                                         </div>
 
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Travel</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Travel Authorization (Advance)</li>
@@ -311,14 +324,14 @@ export default function EmployeeResources(){
                                         </div>
                                     </div>
 
-                                    <div className="bg-blue-700 mt-16 p-2">
-                                        <h2 className="text-xl text-gray-100 text-center" id="wellness_training">Wellness &amp; Training</h2>
+                                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                                        <h2 className="text-2xl text-blue-350 font-bold text-center" id="recognition_training">Recognition &amp; Training</h2>
                                     </div>
 
-                                    <div className="flex flex-col md:flex-row md:-mx-2">
+                                    <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Required Training</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Employee Recognition</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Hiring</li>
@@ -336,8 +349,8 @@ export default function EmployeeResources(){
                                             </div>
                                         </div>
                                         <div className="mt-4 md:w-1/2">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Additional Training</div>
+                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                                <div className="font-bold text-gray-700 text-lg text-center">Employee Education</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
                                                     <ul className="list-decimal list-inside">
                                                         <li>Performance Evaluations</li>
@@ -349,28 +362,6 @@ export default function EmployeeResources(){
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div className="flex flex-col md:flex-row md:-mx-2">
-                                        <div className="mt-4 md:w-full">
-                                            <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-700 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                                <div className="font-bold text-gray-700 text-lg text-center">Wellness</div>
-                                                <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
-                                                        <li>Hiring</li>
-                                                        <li>Orientation Procedures</li>
-                                                        <li>Position Description General Service</li>
-                                                        <li>Reduction in Force</li>
-                                                        <li>Temporary Help</li>
-                                                        <li>Reference Check Release</li>
-                                                        <li>State Employment Application</li>
-                                                        <li>Jobs</li>
-                                                        <li>Contracting</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                                 {/* <------------ End Page Content ------------> */}
 
@@ -401,10 +392,10 @@ export default function EmployeeResources(){
                                     </a>
                                 </div>
                             </div>
-                            <div className="text-gray-100 bg-blue-900 w-full py-2 px-0 md:px-2 flex flex-row justify-center items-center">
-                                    <h2 className="text-xs md:text-lg whitespace-nowrap text-base text-center">Quick Links</h2>
+                            <div className="text-gray-100 bg-blue-450 w-full py-2 px-0 md:px-2 flex flex-row justify-center items-center">
+                                    <h2 className="font-serif text-xs md:text-xl whitespace-nowrap text-base text-center">Quick Links</h2>
                             </div>
-                            <div className="py-4 px-2 bg-gray-100 flex w-full items-center justify-center text-gray-700">                        
+                            <div className="py-4 px-2 mb-4 bg-gray-100 flex w-full items-center justify-center text-gray-700">                        
                                 <ul className="text-xs md:text-lg text-center">
                                         <a className="hover:underline" href=""><li>Timesheet</li></a>
                                         <a className="hover:underline" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
