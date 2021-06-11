@@ -24,7 +24,7 @@ export default function Communications(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-blue-350 flex flex-col items-center">
+            <div className="bg-gray-300 flex flex-col items-center mb-4">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
@@ -74,9 +74,9 @@ export default function Communications(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
+                               {/*  <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-                                </div>
+                                </div> */}
                                
                                 
                             </div>
@@ -160,7 +160,7 @@ export default function Communications(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Templates</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Letterheads</li>
                                                         <li>Powerpoints</li>
                                                         <li>Memos</li>
@@ -174,7 +174,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Logos</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>WSHFC</li>
                                                         <li>WHEFA</li>
                                                         <li>TSA</li>
@@ -194,7 +194,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Marketing Materials</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Homeownership</li>
                                                         <li>Multifamily</li>
                                                         <li>Asset Management &amp; Compliance</li>
@@ -207,7 +207,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Social Media</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Web Content and Social Media Use</li>
                                                         <li>Facebook</li>
                                                         <li>Twitter</li>
@@ -229,7 +229,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Guides</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Graphic Standards Guide</li>
                                                         <li>To Hyphenate or Not to Hyphenate</li>
                                                         <li>Styleguide</li>
@@ -243,7 +243,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Publications</div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Annual/Impact Reports</li>
                                                         <li>Commission Newsletters</li>
                                                         <li>History Books</li>
@@ -263,7 +263,7 @@ export default function Communications(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center"></div>
                                                 <div className="mt-4 text-red-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Communications Plan</li>
                                                     </ul>
                                                     

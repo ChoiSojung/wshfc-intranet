@@ -24,7 +24,7 @@ export default function HrFinance(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-blue-350 flex flex-col items-center">
+            <div className="bg-blue-350 flex flex-col items-center mb-4">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
@@ -74,9 +74,9 @@ export default function HrFinance(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
+                               {/*  <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-                                </div>
+                                </div> */}
                                
                                 
                             </div>
@@ -160,7 +160,7 @@ export default function HrFinance(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Commission Job</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Classification Policy</li>
                                                         <li>Exempt Banding Policy</li>
                                                         <li>Salary Determination</li>
@@ -176,7 +176,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Hiring</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Hiring</li>
                                                         <li>Orientation Procedures</li>
                                                         <li>Position Description General Service</li>
@@ -199,7 +199,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">For the Employer</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Deputy Director Orientation Checklist</li>
                                                         <li>Intranet Checklist</li>
                                                         <li>New Employee Request</li>
@@ -213,7 +213,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Performance Evaluations</li>
                                                         <li>Performance Management</li>
                                                         <li>Performance and Development Plan</li>
@@ -229,7 +229,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Miscellaneous</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Exemption Request</li>
                                                         <li>Frontline Supervisor Newsletter</li>
                                                         <li>Great Job Program</li>
@@ -250,7 +250,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Internal Resources</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
@@ -263,7 +263,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">External Links</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>WA State HR Page</li>
                                                         <li>Health Coverage</li>
                                                         <li>Frontline Employee Newsletter</li>
@@ -284,7 +284,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Leave</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Leave/Overtime Request</li>
                                                         <li>Employee Self Service</li>
                                                         <li>Shared Leave Medical Certificate</li>
@@ -300,7 +300,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Travel</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Travel Authorization (Advance)</li>
                                                         <li>Travel Expense Voucher</li>
                                                         <li>Travel Itinerary</li>
@@ -320,7 +320,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Required Training</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Hiring</li>
                                                         <li>Orientation Procedures</li>
                                                         <li>Position Description General Service</li>
@@ -339,7 +339,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Additional Training</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Performance Evaluations</li>
                                                         <li>Performance Management</li>
                                                         <li>Performance and Development Plan</li>
@@ -355,7 +355,7 @@ export default function HrFinance(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Wellness</div>
                                                 <div className="mt-4 text-green-450 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Hiring</li>
                                                         <li>Orientation Procedures</li>
                                                         <li>Position Description General Service</li>

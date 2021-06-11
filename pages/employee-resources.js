@@ -23,7 +23,7 @@ export default function EmployeeResources(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-blue-350 flex flex-col items-center">
+            <div className="bg-gray-300 flex flex-col items-center mb-4">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
@@ -73,9 +73,9 @@ export default function EmployeeResources(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
+                             {/*    <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-                                </div>
+                                </div> */}
                                
                                 
                             </div>
@@ -159,7 +159,7 @@ export default function EmployeeResources(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Alternative Work Schedule</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Alternative Work Schedule Request</li>
                                                         <li>Telecommute Application</li>
                                                         <li>Telecommute Equipment Agreement</li>
@@ -172,7 +172,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Infants at Work</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Deputy Director Orientation Checklist</li>
                                                         <li>Intranet Checklist</li>
                                                         <li>New Employee Request</li>
@@ -190,7 +190,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Remote Access</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Remote Access Policy Acceptance</li>
                                                     </ul>
                                                 </div>
@@ -201,7 +201,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Reasonable Accomodation</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Accommodation Request</li>
                                                     </ul>
                                                 </div>
@@ -218,7 +218,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Equipment and Office Supplies</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
@@ -231,7 +231,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Purchasing and Ordering</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>WA State HR Page</li>
                                                         <li>Health Coverage</li>
                                                         <li>Frontline Employee Newsletter</li>
@@ -248,7 +248,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Conference/Board Rooms</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
@@ -261,7 +261,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Facility Updates</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>WA State HR Page</li>
                                                         <li>Health Coverage</li>
                                                         <li>Frontline Employee Newsletter</li>
@@ -278,7 +278,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Building Information</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
@@ -297,7 +297,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Conduct/Expectations</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Leave/Overtime Request</li>
                                                         <li>Employee Self Service</li>
                                                         <li>Shared Leave Medical Certificate</li>
@@ -313,7 +313,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Travel Authorization (Advance)</li>
                                                         <li>Travel Expense Voucher</li>
                                                         <li>Travel Itinerary</li>
@@ -333,7 +333,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Employee Recognition</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Hiring</li>
                                                         <li>Orientation Procedures</li>
                                                         <li>Position Description General Service</li>
@@ -352,7 +352,7 @@ export default function EmployeeResources(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Employee Education</div>
                                                 <div className="mt-4 text-blue-700 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Performance Evaluations</li>
                                                         <li>Performance Management</li>
                                                         <li>Performance and Development Plan</li>
