@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
+import Weather from '../components/Weather'
+
 
 
 export default function About(){
@@ -25,7 +27,7 @@ export default function About(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-blue-350 flex flex-col items-center">
+            <div className="bg-blue-350 flex flex-col items-center mb-4">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
@@ -76,9 +78,9 @@ export default function About(){
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
-                                    <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+                                    <Weather></Weather>
+
                                 </div>
-                               
                                 
                             </div>
                         </div>
@@ -143,7 +145,7 @@ export default function About(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-350 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">History</div>
                                                 <div className="mt-4 text-yellow-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Mission/Values/Vision</li>
                                                         <li>Commission Enabling Legislation</li>
                                                         <li>20 year report</li>
@@ -157,7 +159,7 @@ export default function About(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-350 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Info Library</div>
                                                 <div className="mt-4 text-yellow-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Acronyms and Commonly Used Words</li>
                                                         <li>Tax Credit Program</li>
                                                         <li>Homeownership</li>
@@ -180,7 +182,7 @@ export default function About(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-350 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Internal</div>
                                                 <div className="mt-4 text-yellow-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Division Organizational Chart</li>
                                                         <li>Safety Committee</li>
                                                         <li>Sustainable Practices Plan &amp; Green Committee</li>
@@ -197,7 +199,7 @@ export default function About(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-red-350 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Commissioner/Board Meetings</div>
                                                 <div className="mt-4 text-yellow-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Link to Commissioners page on WSHFC website</li>
                                                         <li>Commissioner Relations</li>
                                                         <li>Commission Meeting Packets/Agendas</li>

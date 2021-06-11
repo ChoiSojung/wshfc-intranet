@@ -23,7 +23,7 @@ export default function IT(){
             </Head>
 
              {/* <--------------- Body --------------> */}
-            <div className="bg-blue-350 flex flex-col items-center">
+            <div className="bg-blue-350 flex flex-col items-center mb-4">
                 {/* <------------ Header -----------> */}
 
                 <Header></Header>
@@ -73,9 +73,9 @@ export default function IT(){
                                         />
                                     </a>
                                 </div>
-                                <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
+                            {/*     <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
                                     <a className="twitter-timeline" data-height="550" href="https://twitter.com/wsdot_traffic?ref_src=twsrc%5Etfw">Tweets by wsdot_traffic</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-                                </div>
+                                </div> */}
                                
                                 
                             </div>
@@ -159,7 +159,7 @@ export default function IT(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Policies</div>
                                                 <div className="mt-4 text-gray-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Classification Policy</li>
                                                         <li>Exempt Banding Policy</li>
                                                         <li>Salary Determination</li>
@@ -175,7 +175,7 @@ export default function IT(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Equipment</div>
                                                 <div className="mt-4 text-gray-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Classification Policy</li>
                                                         <li>Exempt Banding Policy</li>
                                                         <li>Salary Determination</li>
@@ -198,7 +198,7 @@ export default function IT(){
                                             <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Training</div>
                                                 <div className="mt-4 text-gray-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Classification Policy</li>
                                                         <li>Exempt Banding Policy</li>
                                                         <li>Salary Determination</li>
@@ -215,7 +215,7 @@ export default function IT(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Links</div>
                                                 <div className="mt-4 text-gray-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
@@ -234,7 +234,7 @@ export default function IT(){
                                             <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                                 <div className="font-bold text-gray-700 text-lg text-center">Fact Sheets/How-to</div>
                                                 <div className="mt-4 text-gray-600 text-md text-center">
-                                                    <ul className="list-decimal list-inside">
+                                                    <ul className="list-decimal list-inside font-bold">
                                                         <li>Pictorial Guide</li>
                                                         <li>About the Commission</li>
                                                         <li>New Hire HR Packet</li>
