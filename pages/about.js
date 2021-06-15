@@ -78,7 +78,7 @@ export default function About(){
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
-                                    <Weather></Weather>
+                                    <Weather />
 
                                 </div>
                                 
