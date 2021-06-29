@@ -3,14 +3,14 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 
-export default function MainWrapper({children}){
+export default function HomeWrapper({children}){
     return(
         <div className="max-w-7xl w-full flex justify-center bg-gray-200 shadow-xl">
             <div className="flex flex-row w-full md:flex-row max-h-screen">
                 {/* <--------------- Start Left Panel --------------> */}
                 <div className="w-3/12 flex flex-col items-center px-6 border-r border-gray-300 hidden md:block">
                     <div className="flex flex-col items-center justify-center w-full">
-                        {/* <div className="flex items-center justify-center mt-4">
+                        <div className="flex items-center justify-center mt-4">
                             <a className="px-2" href="https://www.soundtransit.org/" target="blank">
                                 <Image 
                                     src="v1624905995/Sound_Transit_vertical_logo_epass4.svg"
@@ -47,7 +47,7 @@ export default function MainWrapper({children}){
                                     <a className="hover:underline text-blue-350" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>ESS Login</li></a>
                             </ul>
                             
-                        </div> */}
+                        </div>
                     
                     </div>
                 </div>

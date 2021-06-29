@@ -30,16 +30,16 @@ export default function IT(){
                 <Header></Header>
 
                 <div className="flex flex-col items-center w-full bg-gray-400 shadow-xl">
-                    <div className="max-w-6xl mx-4">
+                    <div className="max-w-6xl m-2">
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/it">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-blue-450 border-b border-blue-450">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-blue-450 border-b border-blue-450">
                                         Information Technology
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 mb-4 text-2xl text-blue-450">
+                            <p className="text-center py-2 text-2xl text-blue-450">
                                 Find documents/guidelines for IT related issues.
                             </p>
                         </div>
@@ -51,20 +51,20 @@ export default function IT(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-4 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
-                        <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
+                        <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
                                 <a href="#policies_equipment">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="text-md font-bold text-gray-100 text-center">Policies &amp; Equipment</p>
+                                        <p className="font-bold text-blue-450 text-center">Policies &amp; Equipment</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#training_links">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="text-md font-bold text-gray-100 text-center">Training &amp; Links</p>
+                                        <p className="font-bold text-blue-450 text-center">Training &amp; Links</p>
                                     </div>
                                 </a>
                             </div>
@@ -73,21 +73,21 @@ export default function IT(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#facts">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="text-md font-bold text-gray-100 text-center">Fact Sheets</p>
+                                        <p className="font-bold text-blue-450 text-center">Fact Sheets</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#help">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">  
-                                        <p className="text-md font-bold text-gray-100 text-center">Help</p>
+                                        <p className="font-bold text-blue-450 text-center">Help</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         
                     
-                        <div className="mt-10 flex flex-col md:flex-row md:-mx-2">
+                        <div className="mt-5 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
@@ -113,7 +113,7 @@ export default function IT(){
                         </div>
 
                         
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                        <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
                             <h2 className="text-2xl text-blue-350 text-center" id="policies_equipment">Policies &amp; Equipment</h2>
                         </div>
                         

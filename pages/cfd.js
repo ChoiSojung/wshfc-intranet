@@ -31,16 +31,16 @@ export default function CFD(){
                 <Header></Header>
 
                 <div className="flex flex-col items-center w-full bg-yellow-450 shadow-xl">
-                    <div className="max-w-6xl mx-4">
+                    <div className="max-w-6xl m-2">
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/cfd">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 py-2 mt-4 text-3xl text-blue-350 border-b border-blue-350">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-blue-350 border-b border-blue-350">
                                         Combined Fund Drive (CFD)
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 mb-4 text-2xl text-blue-350">
+                            <p className="text-center py-2 text-2xl text-blue-350">
                                 Find information about the CFD as well as which organizations you can donate to and how to do so! You can also see the winners of various division competitions.
                             </p>
                         </div>

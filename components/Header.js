@@ -57,7 +57,7 @@ export default function Header() {
                         <ul className="font-serif whitespace-nowrap lg:flex items-center justify-between text-base lg:pt-0 text-gray-100 text-xl">
                             <li><Link href="/"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">Home</a></Link></li>
                             <li><Link href="/about"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">About Us</a></Link></li>
-                            <li><Link href="/hr-finance"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">HR &amp; Finance</a></Link></li>
+                            <li><Link href="/hr-finance"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">HR/Finance</a></Link></li>
                             <li><Link href="/it"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">IT</a></Link></li>
                             <li><Link href="/communications"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">Communications</a></Link></li>
                             <li><Link href="/employee-resources"><a className="inline-block lg:p-4 px-0 block border-b-2 border-transparent hover:border-blue-400">Employee Resources</a></Link></li>

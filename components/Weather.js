@@ -40,9 +40,9 @@ class Weather extends React.Component {
                                 <p className="text-gray-700 text-xl">{forecast.weather[0].main}</p>
                                 <p className="font-gray-700">{moment().format('dddd')}, {moment().format('LL')}</p>
                                 <p className="font-gray-700 text-sm">Currently: {forecast.main.temp} &deg;F</p>
-                                <p className="font-gray-700 text-sm"> Sunrise: {new Date(forecast.sys.sunrise * 1000).toLocaleTimeString('en-IN')}</p>
+                                {/* <p className="font-gray-700 text-sm"> Sunrise: {new Date(forecast.sys.sunrise * 1000).toLocaleTimeString('en-IN')}</p>
                                 <p className="font-gray-700 text-sm">Sunset: {new Date(forecast.sys.sunset * 1000).toLocaleTimeString('en-IN')}</p>
-                                <p className="font-gray-700 text-sm">Humidity: {forecast.main.humidity} %</p>
+                                <p className="font-gray-700 text-sm">Humidity: {forecast.main.humidity} %</p> */}
                             </Card.Content>
                         </Card>  
                     </>     

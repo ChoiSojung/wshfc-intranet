@@ -32,16 +32,16 @@ export default function About(){
                 <Header></Header>
 
                 <div className="flex flex-col items-center w-full bg-red-350 shadow-xl">
-                    <div className="max-w-6xl m-4">
+                    <div className="max-w-6xl m-2">
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/about">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 py-2 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-blue-350 border-b border-blue-350">
                                         About Us
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-gray-100">
+                            <p className="text-center py-2 text-2xl text-blue-350">
                                 Commission history, org charts, board meeting documents, and diversity &amp; equity/inclusion plans.
                             </p>
                         </div>
@@ -51,26 +51,26 @@ export default function About(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-4 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
-                        <div className="mt-4 flex flex-col md:flex-row md:-mx-2">
+                        <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
                                 <a href="#commission">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-350 rounded-lg p-2 hover:bg-yellow-600">
-                                        <p className="text-md font-bold text-gray-100 text-center">The Commission</p>
+                                        <p className="font-bold text-blue-350 text-center">The Commission</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#organization">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-350 rounded-lg p-2 hover:bg-yellow-600">
-                                        <p className="text-md font-bold text-gray-100 text-center">Organization</p>
+                                        <p className="font-bold text-blue-350 text-center">Organization</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     
-                        <div className="mt-10 flex flex-col md:flex-row md:-mx-2">
+                        <div className="mt-5 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
@@ -95,7 +95,7 @@ export default function About(){
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
+                        <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
                             <h2 className="text-2xl text-blue-350 text-center" id="commission">The Commission</h2>
                         </div>
                         
