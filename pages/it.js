@@ -34,12 +34,12 @@ export default function IT(){
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/it">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-blue-450 border-b border-blue-450">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-2xl text-blue-450 border-b border-blue-450">
                                         Information Technology
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-blue-450">
+                            <p className="text-center py-2 text-xl text-blue-450">
                                 Find documents/guidelines for IT related issues.
                             </p>
                         </div>
@@ -51,7 +51,7 @@ export default function IT(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                         <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
@@ -114,14 +114,14 @@ export default function IT(){
 
                         
                         <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="policies_equipment">Policies &amp; Equipment</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="policies_equipment">Policies &amp; Equipment</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Policies</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Policies</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Classification Policy</li>
                                             <li>Exempt Banding Policy</li>
@@ -136,8 +136,8 @@ export default function IT(){
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Equipment</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Equipment</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Classification Policy</li>
                                             <li>Exempt Banding Policy</li>
@@ -153,14 +153,14 @@ export default function IT(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="training_links">Training &amp; Links</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="training_links">Training &amp; Links</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Training</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Training</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Classification Policy</li>
                                             <li>Exempt Banding Policy</li>
@@ -176,8 +176,8 @@ export default function IT(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Links</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Links</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -189,14 +189,14 @@ export default function IT(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="facts">Fact Sheets/How-to</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="facts">Fact Sheets/How-to</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Fact Sheets/How-to</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Fact Sheets/How-to</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -208,14 +208,14 @@ export default function IT(){
                         </div>
                         
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="help">Need Help?</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="help">Need Help?</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-xl text-center">Help</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Help</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         
                                     </div>
                                 </div>

@@ -34,12 +34,12 @@ export default function Communications(){
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/communications">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-2xl text-gray-100 border-b border-gray-100">
                                         Communications
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-gray-100">
+                            <p className="text-center py-2 text-xl text-gray-100">
                                 Find documents/guidelines for marketing, templates, logos, styleguides, publications and social media polices.
                             </p>
                         </div>
@@ -50,7 +50,7 @@ export default function Communications(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                         <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
@@ -113,14 +113,14 @@ export default function Communications(){
 
                         
                         <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="templates_logos">Templates &amp; Logos</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="templates_logos">Templates &amp; Logos</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Templates</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Templates</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Letterheads</li>
                                             <li>Powerpoints</li>
@@ -133,8 +133,8 @@ export default function Communications(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Logos</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Logos</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>WSHFC</li>
                                             <li>WHEFA</li>
@@ -147,14 +147,14 @@ export default function Communications(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="marketing_social">Marketing &amp; Social Media</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="marketing_social">Marketing &amp; Social Media</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Marketing Materials</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Marketing Materials</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Homeownership</li>
                                             <li>Multifamily</li>
@@ -166,8 +166,8 @@ export default function Communications(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Social Media</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Social Media</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Web Content and Social Media Use</li>
                                             <li>Facebook</li>
@@ -182,14 +182,14 @@ export default function Communications(){
                         </div>
                         
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="guides_publications">Guides &amp; Publications</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="guides_publications">Guides &amp; Publications</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Guides</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Guides</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Graphic Standards Guide</li>
                                             <li>To Hyphenate or Not to Hyphenate</li>
@@ -202,8 +202,8 @@ export default function Communications(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-xl text-center">Publications</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Publications</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Annual/Impact Reports</li>
                                             <li>Commission Newsletters</li>
@@ -216,14 +216,14 @@ export default function Communications(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="communications_plan">Communications Plan</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="communications_plan">Communications Plan</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                     <div className="font-bold text-gray-700 text-lg text-center"></div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Communications Plan</li>
                                         </ul>

@@ -35,12 +35,12 @@ export default function CFD(){
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/cfd">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-blue-350 border-b border-blue-350">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-2xl text-blue-350 border-b border-blue-350">
                                         Combined Fund Drive (CFD)
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-blue-350">
+                            <p className="text-center py-2 text-xl text-blue-350">
                                 Find information about the CFD as well as which organizations you can donate to and how to do so! You can also see the winners of various division competitions.
                             </p>
                         </div>

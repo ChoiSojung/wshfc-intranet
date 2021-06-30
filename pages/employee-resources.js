@@ -34,12 +34,12 @@ export default function EmployeeResources(){
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/employee-resources">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-2xl text-gray-100 border-b border-gray-100">
                                         Employee Resources
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-gray-100">
+                            <p className="text-center py-2 text-xl text-gray-100">
                                 Find documents/guidelines regarding conduct, evaluations, employee recognition, work resources, facilities and training opportunities.
                             </p>
                         </div>
@@ -50,7 +50,7 @@ export default function EmployeeResources(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                         <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
@@ -113,14 +113,14 @@ export default function EmployeeResources(){
 
                         
                         <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="work_resources">Work Resources</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="work_resources">Work Resources</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Alternative Work Schedule</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Alternative Work Schedule</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Alternative Work Schedule Request</li>
                                             <li>Telecommute Application</li>
@@ -132,8 +132,8 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Infants at Work</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Infants at Work</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Deputy Director Orientation Checklist</li>
                                             <li>Intranet Checklist</li>
@@ -150,8 +150,8 @@ export default function EmployeeResources(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Remote Access</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Remote Access</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Remote Access Policy Acceptance</li>
                                         </ul>
@@ -161,8 +161,8 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Reasonable Accomodation</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Reasonable Accomodation</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Accommodation Request</li>
                                         </ul>
@@ -172,14 +172,14 @@ export default function EmployeeResources(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="facilities">Facilities</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="facilities">Facilities</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Equipment and Office Supplies</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Equipment and Office Supplies</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -191,8 +191,8 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Purchasing and Ordering</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Purchasing and Ordering</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>WA State HR Page</li>
                                             <li>Health Coverage</li>
@@ -208,8 +208,8 @@ export default function EmployeeResources(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Conference/Board Rooms</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Conference/Board Rooms</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -221,8 +221,8 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Facility Updates</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Facility Updates</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>WA State HR Page</li>
                                             <li>Health Coverage</li>
@@ -238,8 +238,8 @@ export default function EmployeeResources(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Building Information</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Building Information</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -251,14 +251,14 @@ export default function EmployeeResources(){
                         </div>
                         
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="conduct_evaluations">Conduct &amp; Evaluations</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="conduct_evaluations">Conduct &amp; Evaluations</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Conduct/Expectations</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Conduct/Expectations</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Leave/Overtime Request</li>
                                             <li>Employee Self Service</li>
@@ -273,8 +273,8 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Evaluations</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Evaluations</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Travel Authorization (Advance)</li>
                                             <li>Travel Expense Voucher</li>
@@ -287,14 +287,14 @@ export default function EmployeeResources(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="recognition_training">Recognition &amp; Training</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="recognition_training">Recognition &amp; Training</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Employee Recognition</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Employee Recognition</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Hiring</li>
                                             <li>Orientation Procedures</li>
@@ -312,8 +312,8 @@ export default function EmployeeResources(){
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-xl text-center">Employee Education</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Employee Education</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Performance Evaluations</li>
                                             <li>Performance Management</li>

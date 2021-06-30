@@ -35,12 +35,12 @@ export default function HrFinance(){
                         <div className="flex flex-col justify-center items-center"> 
                             <Link href="/hr-finance">
                                 <a>
-                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-3xl text-gray-100 border-b border-gray-100">
+                                    <h1 className="font-serif hover:text-gray-300 hover:border-gray-300 text-2xl text-gray-100 border-b border-gray-100">
                                         Human Resources and Finance
                                     </h1>
                                 </a>
                             </Link>
-                            <p className="text-center py-2 text-2xl text-gray-100">
+                            <p className="text-center py-2 text-xl text-gray-100">
                                 Find HR documents for both managers and employees, new employees, as well as timesheets, leave, compensation and training resources.
                             </p>
                         </div>
@@ -51,7 +51,7 @@ export default function HrFinance(){
                 <MainWrapper>
                     {/* <------------ Page Content ------------> */}
                     <div className="px-6">
-                        <p className="font-serif text-2xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+                        <p className="font-serif text-xl mt-2 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
 
                         <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-2 md:w-1/2">
@@ -114,14 +114,14 @@ export default function HrFinance(){
 
                         
                         <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="manager_resources">Manager Resources</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="manager_resources">Manager Resources</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Commission Job</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Commission Job</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Classification Policy</li>
                                             <li>Exempt Banding Policy</li>
@@ -136,8 +136,8 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Hiring</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Hiring</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Hiring</li>
                                             <li>Orientation Procedures</li>
@@ -159,8 +159,8 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">For the Employer</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">For the Employer</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Deputy Director Orientation Checklist</li>
                                             <li>Intranet Checklist</li>
@@ -173,8 +173,8 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Evaluations</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Evaluations</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Performance Evaluations</li>
                                             <li>Performance Management</li>
@@ -189,8 +189,8 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Miscellaneous</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Miscellaneous</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Exemption Request</li>
                                             <li>Frontline Supervisor Newsletter</li>
@@ -204,14 +204,14 @@ export default function HrFinance(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="employee_resources">New Employee Resources</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="employee_resources">New Employee Resources</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Internal Resources</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Internal Resources</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Pictorial Guide</li>
                                             <li>About the Commission</li>
@@ -223,8 +223,8 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">External Links</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">External Links</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>WA State HR Page</li>
                                             <li>Health Coverage</li>
@@ -238,14 +238,14 @@ export default function HrFinance(){
                         </div>
                         
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Leave</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Leave</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Leave/Overtime Request</li>
                                             <li>Employee Self Service</li>
@@ -260,8 +260,8 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Travel</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Travel</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Travel Authorization (Advance)</li>
                                             <li>Travel Expense Voucher</li>
@@ -274,14 +274,14 @@ export default function HrFinance(){
                         </div>
 
                         <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-2xl text-blue-350 text-center" id="wellness_training">Wellness &amp; Training</h2>
+                            <h2 className="text-xl text-blue-350 text-center" id="wellness_training">Wellness &amp; Training</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Required Training</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Required Training</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Hiring</li>
                                             <li>Orientation Procedures</li>
@@ -299,8 +299,8 @@ export default function HrFinance(){
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Additional Training</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Additional Training</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Performance Evaluations</li>
                                             <li>Performance Management</li>
@@ -315,8 +315,8 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-xl text-center">Wellness</div>
-                                    <div className="mt-4 text-gray-700 text-md text-center">
+                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Wellness</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <li>Hiring</li>
                                             <li>Orientation Procedures</li>
