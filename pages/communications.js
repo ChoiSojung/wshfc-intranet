@@ -56,14 +56,14 @@ export default function Communications(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#templates_logos">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">Templates &amp; Logos</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Templates &amp; Logos</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#marketing_social">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">Marketing &amp; Social Media</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Marketing &amp; Social Media</p>
                                     </div>
                                 </a>
                             </div>
@@ -72,14 +72,14 @@ export default function Communications(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#guides_publications">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">  
-                                        <p className="text-md font-bold text-gray-100 text-center">Guides &amp; Publications</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Guides &amp; Publications</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#communications_plan">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-450 rounded-lg p-2 hover:bg-red-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">Communications Plan</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Communications Plan</p>
                                     </div>
                                 </a>
                             </div>
@@ -95,7 +95,7 @@ export default function Communications(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
@@ -106,7 +106,7 @@ export default function Communications(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>

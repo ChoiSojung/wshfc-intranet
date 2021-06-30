@@ -57,14 +57,14 @@ export default function IT(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#policies_equipment">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="font-bold text-blue-450 text-center">Policies &amp; Equipment</p>
+                                        <p className="font-bold text-sm text-blue-450 text-center">Policies &amp; Equipment</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#training_links">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="font-bold text-blue-450 text-center">Training &amp; Links</p>
+                                        <p className="font-bold text-sm text-blue-450 text-center">Training &amp; Links</p>
                                     </div>
                                 </a>
                             </div>
@@ -73,14 +73,14 @@ export default function IT(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#facts">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">
-                                        <p className="font-bold text-blue-450 text-center">Fact Sheets</p>
+                                        <p className="font-bold text-sm text-blue-450 text-center">Fact Sheets</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#help">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-gray-400 rounded-lg p-2 hover:bg-gray-500">  
-                                        <p className="font-bold text-blue-450 text-center">Help</p>
+                                        <p className="font-bold text-sm text-blue-450 text-center">Help</p>
                                     </div>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@ export default function IT(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
@@ -107,7 +107,7 @@ export default function IT(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>

@@ -56,14 +56,14 @@ export default function EmployeeResources(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#work_resources">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
-                                        <p className="text-md font-bold text-gray-100 text-center">Work Resources</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Work Resources</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#facilities">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
-                                        <p className="text-md font-bold text-gray-100 text-center">Facilities</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Facilities</p>
                                     </div>
                                 </a>
                             </div>
@@ -72,14 +72,14 @@ export default function EmployeeResources(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#conduct_evaluations">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">  
-                                        <p className="text-md font-bold text-gray-100 text-center">Conduct &amp; Evaluations</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Conduct &amp; Evaluations</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#recognition_training">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-blue-600 rounded-lg p-2 hover:bg-blue-800">
-                                        <p className="text-md font-bold text-gray-100 text-center">Recognition &amp; Training</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Recognition &amp; Training</p>
                                     </div>
                                 </a>
                             </div>
@@ -95,7 +95,7 @@ export default function EmployeeResources(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
@@ -106,7 +106,7 @@ export default function EmployeeResources(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>

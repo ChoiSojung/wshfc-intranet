@@ -57,14 +57,14 @@ export default function HrFinance(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#manager_resources">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-green-450 rounded-lg p-2 hover:bg-green-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">Manager Resources</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Manager Resources</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#employee_resources">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-green-450 rounded-lg p-2 hover:bg-green-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">New Employee Resources</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">New Employee Resources</p>
                                     </div>
                                 </a>
                             </div>
@@ -73,14 +73,14 @@ export default function HrFinance(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#timesheet_leave_comp">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-green-450 rounded-lg p-2 hover:bg-green-700">  
-                                        <p className="text-md font-bold text-gray-100 text-center">Timesheet, Leave &amp; Compensation</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Timesheet, Leave &amp; Compensation</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#wellness_training">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-green-450 rounded-lg p-2 hover:bg-green-700">
-                                        <p className="text-md font-bold text-gray-100 text-center">Wellness &amp; Training</p>
+                                        <p className="text-sm font-bold text-gray-100 text-center">Wellness &amp; Training</p>
                                     </div>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@ export default function HrFinance(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
@@ -107,7 +107,7 @@ export default function HrFinance(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>
