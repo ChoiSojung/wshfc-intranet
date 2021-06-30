@@ -19,7 +19,7 @@ class Weather extends React.Component {
                 .catch(()=> this.setState({currently: 'error'}))
         }
 
-        const error = (homePosition)=> {
+        const error = ()=> {
             alert('Unable to retrieve your location for weather')
         }
 
