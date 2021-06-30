@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 import HomeWrapper from '../components/HomeWrapper'
+import Slider from '../components/Slider'
 
 export default function Home() {
   const [isOpen, setisOpen] = React.useState(false)
@@ -32,19 +33,12 @@ export default function Home() {
             <HomeWrapper>
                 {/* <------------ Page Content ------------> */}
                 <div className="px-6">
-                    <div className="w-full flex flex-col md:flex-row md:-mx-2">
-                        <div className="mt-4 md:w-4/6">
-                            <div className="h-full flex flex-col items-center md:mx-2">
-                                <Image
-                                    src="v1621966145/Spokane-day1-cc-2402_uowdmt.jpg"
-                                    alt="spokane-day1" 
-                                    width={600}
-                                    height={400}
-                                />
-                            </div>
+                    <div className="w-full flex flex-col md:flex-row">
+                        <div className="mt-4 md:w-2/3">
+                            <Slider />
                         </div>
-                        <div className="mt-4 md:w-2/6">
-                            <div className="h-full flex flex-col items-center md:mx-2 bg-blue-350">
+                        <div className="mt-4 md:w-1/3">
+                            <div className="h-full flex flex-col items-center bg-blue-350">
                                 <h1 className="text-gray-100 py-4 text-xl">Cool Happenings</h1>
                                 <p className="text-sm text-gray-100 py-4">Coming soon!</p>
                             </div>

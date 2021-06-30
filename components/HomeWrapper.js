@@ -21,17 +21,16 @@ export default function HomeWrapper({children}){
                         <div className="p-1 mb-4 bg-gray-100 flex w-full items-center justify-center text-gray-700 border border-gray-300">                        
                             <ul className="text-center md:text-lg text-xs">
                                     <a className="hover:underline text-blue-350" href=""><li>Timesheet</li></a>
-                                    <a className="hover:underline text-blue-350" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
                                     <a className="hover:underline text-blue-350" href="http://wshfc.org/" target="blank"><li>WSHFC</li></a>
                                     <a className="hover:underline text-blue-350" href="http://whefa.org/"><li>WHEFA</li></a>
                                     <a className="hover:underline text-blue-350" href="http://www.tsa-wa.org/"><li>TSA</li></a>
                                     <a className="hover:underline text-blue-350" href=""><li>Pictorial Guide</li></a>
                                     <a className="hover:underline text-blue-350" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>Employee Self Services</li></a>
+                                    <a className="hover:underline text-blue-350" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
                             </ul>
                             
                         </div>
-
-                        <div className="flex items-center justify-center mt-6">
+                        <div className="flex items-center justify-center mt-2">
                             <a className="px-2" href="https://www.soundtransit.org/" target="blank">
                                 <Image 
                                     src="v1624905995/Sound_Transit_vertical_logo_epass4.svg"
@@ -40,8 +39,6 @@ export default function HomeWrapper({children}){
                                     height={50}
                                 />
                             </a>
-                        </div>
-                        <div className="flex items-center justify-center">
                             <a className="px-2" href="https://wsdot.wa.gov/" target="blank">
                                 <Image 
                                     src="v1621966123/WSDOT_pptkns.png"
@@ -51,7 +48,6 @@ export default function HomeWrapper({children}){
                                 />
                             </a>
                         </div>
-                    
                     </div>
                 </div>
                 {/* <--------------- End Left Panel --------------> */}

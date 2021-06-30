@@ -57,14 +57,14 @@ export default function About(){
                             <div className="mt-2 md:w-1/2">
                                 <a href="#commission">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-350 rounded-lg p-2 hover:bg-yellow-600">
-                                        <p className="font-bold text-blue-350 text-center">The Commission</p>
+                                        <p className="font-bold text-sm text-blue-350 text-center">The Commission</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="mt-2 md:w-1/2">
                                 <a href="#organization">
                                     <div className="h-full flex flex-col items-center md:mx-2 bg-red-350 rounded-lg p-2 hover:bg-yellow-600">
-                                        <p className="font-bold text-blue-350 text-center">Organization</p>
+                                        <p className="font-bold text-sm text-blue-350 text-center">Organization</p>
                                     </div>
                                 </a>
                             </div>
@@ -79,7 +79,7 @@ export default function About(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
@@ -90,7 +90,7 @@ export default function About(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-md italic">Caption</p>
+                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>
