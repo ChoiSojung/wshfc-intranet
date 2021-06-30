@@ -36,8 +36,9 @@ class Weather extends React.Component {
                     <>
                         <Card className="p-2 text-center w-full">
                             <Card.Content>
-                                <Card.Header className="font-serif text-gray-700 text-2xl">{forecast.name}</Card.Header>
-                                <p className="text-gray-700 text-xl">{forecast.weather[0].main}</p>
+                                <div className="flex justify-center"><img src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather"/></div>    
+                                <Card.Header className="font-serif font-bold text-gray-700 text-xl">{forecast.name}</Card.Header>
+                                <p className="text-gray-700 text-lg">{forecast.weather[0].main}</p>
                                 <p className="font-gray-700">{moment().format('dddd')}, {moment().format('LL')}</p>
                                 <p className="font-gray-700 text-sm">Currently: {forecast.main.temp} &deg;F</p>
                                 {/* <p className="font-gray-700 text-sm"> Sunrise: {new Date(forecast.sys.sunrise * 1000).toLocaleTimeString('en-IN')}</p>

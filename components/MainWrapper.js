@@ -10,44 +10,7 @@ export default function MainWrapper({children}){
                 {/* <--------------- Start Left Panel --------------> */}
                 <div className="w-3/12 flex flex-col items-center px-6 border-r border-gray-300 hidden md:block">
                     <div className="flex flex-col items-center justify-center w-full">
-                        {/* <div className="flex items-center justify-center mt-4">
-                            <a className="px-2" href="https://www.soundtransit.org/" target="blank">
-                                <Image 
-                                    src="v1624905995/Sound_Transit_vertical_logo_epass4.svg"
-                                    alt="sound_transit" 
-                                    width={75}
-                                    height={46}
-                                />
-                            </a>
-                    
-                            <a className="px-2" href="https://wsdot.wa.gov/" target="blank">
-                                <Image 
-                                    src="v1621966123/WSDOT_pptkns.png"
-                                    alt="wsdot" 
-                                    width={75}
-                                    height={75}
-                                />
-                            </a>
-                        </div>
-                        <div className="flex flex-col items-center justify-center w-full sm:mx-2 mb-4">
-                            <Weather />
-
-                        </div>
-                        <div className="text-gray-100 bg-blue-350 w-full py-1 px-0 md:px-2 flex flex-row justify-center items-center">
-                            <h2 className="font-serif text-xs md:text-xl whitespace-nowrap text-base text-center">Quick Links</h2>
-                        </div>
-                        <div className="p-1 mb-4 bg-gray-100 flex w-full items-center justify-center text-gray-700">                        
-                            <ul className="text-center md:text-lg text-xs">
-                                    <a className="hover:underline text-blue-350" href=""><li>Timesheet</li></a>
-                                    <a className="hover:underline text-blue-350" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
-                                    <a className="hover:underline text-blue-350" href="http://wshfc.org/" target="blank"><li>WSHFC</li></a>
-                                    <a className="hover:underline text-blue-350" href="http://whefa.org/"><li>WHEFA</li></a>
-                                    <a className="hover:underline text-blue-350" href="http://www.tsa-wa.org/"><li>TSA</li></a>
-                                    <a className="hover:underline text-blue-350" href=""><li>Pictorial Guide</li></a>
-                                    <a className="hover:underline text-blue-350" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>ESS Login</li></a>
-                            </ul>
-                            
-                        </div> */}
+                        
                     
                     </div>
                 </div>
