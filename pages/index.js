@@ -16,6 +16,12 @@ export default function Home() {
       setisOpen(!isOpen)
   }
 
+  const slides = [
+    "https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg",
+    "https://res.cloudinary.com/wshfc/image/upload/v1625078012/Sisters_Haven_family_Spokane_6-19_va3002.jpg",
+    "https://res.cloudinary.com/wshfc/image/upload/v1621966138/PtAngeles-sep2019-6081_fol4s3.jpg",
+  ]
+
   return (
 
     <div>
@@ -35,7 +41,7 @@ export default function Home() {
                 <div className="px-6">
                     <div className="w-full flex flex-col md:flex-row">
                         <div className="mt-4 md:w-2/3">
-                            <Slider />
+                            <Slider>{slides}</Slider>
                         </div>
                         <div className="mt-4 md:w-1/3">
                             <div className="h-full flex flex-col items-center bg-blue-350">
