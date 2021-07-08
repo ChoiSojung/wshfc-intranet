@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 export default function MainWrapper({children}){
     return(
-        <div className="max-w-7xl w-full flex justify-center bg-gray-200 shadow-xl">
+        <div className="max-w-7xl w-full flex justify-center bg-gray-450 shadow-xl">
             <div className="flex flex-row w-full md:flex-row max-h-screen">
                 {/* <--------------- Start Left Panel --------------> */}
                 <div className="w-3/12 flex flex-col items-center px-6 border-r border-gray-300 hidden md:block">

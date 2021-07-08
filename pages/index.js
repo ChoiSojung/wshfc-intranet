@@ -1,12 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 import HomeWrapper from '../components/HomeWrapper'
-import Slider from '../components/Slider'
+import HomeSlider from '../components/HomeSlider'
 
 export default function Home() {
   const [isOpen, setisOpen] = React.useState(false)
@@ -15,12 +13,6 @@ export default function Home() {
       console.log('Clicked!')
       setisOpen(!isOpen)
   }
-
-  const slides = [
-    "https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg",
-    "https://res.cloudinary.com/wshfc/image/upload/v1625078012/Sisters_Haven_family_Spokane_6-19_va3002.jpg",
-    "https://res.cloudinary.com/wshfc/image/upload/v1621966138/PtAngeles-sep2019-6081_fol4s3.jpg",
-  ]
 
   return (
 
@@ -41,7 +33,7 @@ export default function Home() {
                 <div className="px-6">
                     <div className="w-full flex flex-col md:flex-row">
                         <div className="mt-4 md:w-2/3">
-                            <Slider>{slides}</Slider>
+                            <HomeSlider/>
                         </div>
                         <div className="mt-4 md:w-1/3">
                             <div className="h-full flex flex-col items-center bg-blue-350">
@@ -50,6 +42,25 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    <p className="font-serif text-xl mt-10 text-blue-350 font-bold pb-2 border-b-2 border-blue-350">Jump to a section</p>
+
+                    <div className="mt-2 flex flex-col md:flex-row md:-mx-2">
+                        <div className="mt-2 md:w-1/2">
+                            <a href="#organization">
+                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-450 rounded-lg p-2 hover:bg-blue-350">
+                                    <p className="text-sm font-bold text-gray-100 text-center">Organization</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="mt-2 md:w-1/2">
+                            <a href="#division_links">
+                                <div className="h-full flex flex-col items-center md:mx-2 bg-blue-450 rounded-lg p-2 hover:bg-blue-350">
+                                    <p className="text-sm font-bold text-gray-100 text-center">Division Specific Links</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
 
                     <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
                         <h2 className="text-xl text-blue-350 text-center" id="commission">The Commission</h2>
@@ -128,7 +139,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                        <h2 className="text-xl text-blue-350 text-center" id="organization">Division Specific Links</h2>
+                        <h2 className="text-xl text-blue-350 text-center" id="division_links">Division Specific Links</h2>
                     </div>
                     
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">

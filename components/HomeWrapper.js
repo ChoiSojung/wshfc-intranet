@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 export default function HomeWrapper({children}){
     return(
-        <div className="max-w-7xl w-full flex justify-center bg-gray-200 shadow-xl">
+        <div className="max-w-7xl w-full flex justify-center bg-gray-450 shadow-xl">
             <div className="flex flex-row w-full md:flex-row max-h-screen">
                 {/* <--------------- Start Left Panel --------------> */}
                 <div className="w-3/12 flex flex-col items-center px-6 border-r border-gray-300 hidden md:block">
@@ -20,10 +20,11 @@ export default function HomeWrapper({children}){
                         </div>
                         <div className="p-1 mb-4 bg-gray-100 flex w-full items-center justify-center text-gray-700 border border-gray-300">                        
                             <ul className="text-center md:text-lg text-xs">
-                                    <a className="hover:underline text-blue-350" href=""><li>Timesheet</li></a>
+                                    <a className="hover:underline text-blue-350" href="#"><li>Timesheet</li></a>
+                                    <a className="hover:underline text-blue-350" href="#"><li>Leave</li></a>
                                     <a className="hover:underline text-blue-350" href="http://wshfc.org/" target="blank"><li>WSHFC</li></a>
                                     <a className="hover:underline text-blue-350" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
-                                    <a className="hover:underline text-blue-350" href=""><li>Pictorial Guide</li></a>
+                                    <a className="hover:underline text-blue-350" href="#"><li>Pictorial Guide</li></a>
                                     <a className="hover:underline text-blue-350" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>Employee Self Services</li></a>     
                             </ul>
                             
