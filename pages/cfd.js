@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
@@ -41,7 +41,7 @@ export default function CFD(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-350">
-                                Find information about the CFD as well as which organizations you can donate to and how to do so! You can also see the winners of various division competitions.
+                                <i>NEW!</i> TBD
                             </p>
                         </div>
                     </div>

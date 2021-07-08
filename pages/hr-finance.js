@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
@@ -41,7 +41,7 @@ export default function HrFinance(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-gray-100">
-                                Find HR documents for both managers and employees, new employees, as well as timesheets, leave, compensation and training resources.
+                                <i>NEW!</i> Looking for hiring policies? Perhaps evaluations? Are you a new employee looking to orient yourself in the office and get to know everybody’s name and face? Or perhaps you’re just looking for your leave request or travel documents. If you can’t find what you need, just use the search bar.
                             </p>
                         </div>
                     </div>

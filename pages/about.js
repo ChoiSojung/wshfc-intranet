@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
@@ -42,7 +42,7 @@ export default function About(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-350">
-                                Commission history, org charts, board meeting documents, and diversity &amp; equity/inclusion plans.
+                                <i>NEW!</i> TBD
                             </p>
                         </div>
                     </div>

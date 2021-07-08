@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
@@ -40,7 +40,7 @@ export default function EmployeeResources(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-gray-100">
-                                Find documents/guidelines regarding conduct, evaluations, employee recognition, work resources, facilities and training opportunities.
+                                <i>NEW!</i> If you’re looking for the ins and outs of the Commission - its policies on conduct, work accommodations, and evaluations, its facility procedures, or how to recognize a hardworking employee – you’re in the right place! This is the one stop shop for everything you need to navigate your day to day tasks. If you can’t find what you need, just use the search bar.
                             </p>
                         </div>
                     </div>

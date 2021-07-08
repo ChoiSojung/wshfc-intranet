@@ -4,6 +4,7 @@ import {Card} from 'semantic-ui-react'
 import moment from 'moment'
 
 class Weather extends React.Component {
+
     state = {
         currently: 'loading',
         forecast: {}
@@ -12,7 +13,7 @@ class Weather extends React.Component {
     componentDidMount() {
 
         const success = (position) => {
-            const {latitude, longitude} = position.coords
+            const {latitude, longitude} = position.coords;
             fetch(`${process.env.WEATHER_API_URL}/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${process.env.WEATHER_API_KEY}`)
                 .then((res) => res.json())
                 .then((forecast) => this.setState({ forecast, currently: 'success' }))
@@ -23,7 +24,22 @@ class Weather extends React.Component {
             alert('Unable to retrieve your location for weather')
         }
 
-        navigator.geolocation.getCurrentPosition(success, error)
+        const defaultPos = ()=> {
+            fetch(`${process.env.WEATHER_API_URL}/weather?lat=47.60591338432758&lon=-122.33528930196402&units=imperial&appid=${process.env.WEATHER_API_KEY}`)
+                .then((res) => res.json())
+                .then((forecast) => this.setState({ forecast, currently: 'success' }))
+                .catch(()=> this.setState({currently: 'error'}))
+        }
+
+        navigator.permissions && navigator.permissions.query({name: 'geolocation'})
+            .then(function(PermissionStatus){
+                if(PermissionStatus.state == 'granted' || PermissionStatus.state =='prompt'){
+                    navigator.geolocation.getCurrentPosition(success, error)
+                } else {
+                   defaultPos() 
+                }
+            })
+        
     } 
         
     render(){

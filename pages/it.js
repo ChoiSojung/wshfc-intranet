@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
@@ -40,7 +40,7 @@ export default function IT(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-450">
-                                Find documents/guidelines for IT related issues.
+                                <i>NEW!</i> Information Technology is the one stop shop for all things…..tech! Whether you’re looking to solve a problem, learn how to use a new program, or login to your Office 365 filtering service, IT has it all. If you can’t find what you need, just use the search bar.
                             </p>
                         </div>
                     </div>
