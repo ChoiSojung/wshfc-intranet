@@ -1,0 +1,2 @@
+info  - Using webpack 5. Reason: future.webpack5 option enabled https://nextjs.org/docs/messages/webpack5
+> Ready on http://localhost:\\.\pipe\b8e8d812-684e-43e1-a0a6-9e0cc6c077e8
