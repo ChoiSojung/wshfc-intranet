@@ -74,7 +74,7 @@ export default function About(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1627069615/Liberty_Bank_opening_r8yfln.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069615/Liberty_Bank_opening_r8yfln.jpg"
                                         alt="liberty-bank-opening" 
                                         width={600}
                                         height={400}
@@ -85,7 +85,7 @@ export default function About(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1627069606/PtAngeles-sep2019-6072_yvr8pb.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069606/PtAngeles-sep2019-6072_yvr8pb.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}

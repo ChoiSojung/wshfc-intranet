@@ -91,7 +91,7 @@ export default function IT(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1627069593/Spokane-dayA-cc-1364_w7vqm0.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069588/PtAngeles-sep2019-6153_kijstc.jpg"
                                         alt="spokane-day1" 
                                         width={600}
                                         height={400}
@@ -102,7 +102,7 @@ export default function IT(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1627069588/PtAngeles-sep2019-6153_kijstc.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069593/Spokane-dayA-cc-1364_w7vqm0.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}

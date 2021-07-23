@@ -90,7 +90,7 @@ export default function Communications(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1621966145/Spokane-day1-cc-2402_uowdmt.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg"
                                         alt="spokane-day1" 
                                         width={600}
                                         height={400}
@@ -101,7 +101,7 @@ export default function Communications(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1621966138/PtAngeles-sep2019-6081_fol4s3.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}

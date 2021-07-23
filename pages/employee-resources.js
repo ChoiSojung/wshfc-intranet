@@ -90,7 +90,7 @@ export default function EmployeeResources(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1627069600/PtAngeles-sep2019-6405_f6xrbw.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069600/PtAngeles-sep2019-6405_f6xrbw.jpg"
                                         alt="finn river cidery" 
                                         width={600}
                                         height={400}
@@ -101,7 +101,7 @@ export default function EmployeeResources(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1625078006/Spokane-dayA-cc-0028_mylwpd.jpg"
+                                        src="https://res.cloudinary.com/wshfc/image/upload/v1625078006/Spokane-dayA-cc-0028_mylwpd.jpg"
                                         alt="spokane" 
                                         width={600}
                                         height={400}
