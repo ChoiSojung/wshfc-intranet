@@ -145,10 +145,10 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">Admin</div>
+                                <div className="font-serif font-bold text-blue-450 text-center">Admin</div>
                                 <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
-                                        <li>Homebase</li>
+                                        <li>Link</li>
                                         <li>Link</li>
                                     </ul>
                                 </div>
@@ -157,7 +157,7 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">HO</div>
+                                <div className="font-serif font-bold text-blue-450 text-center">Homeownership</div>
                                 <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <li>Home Advantage Rates</li>
@@ -169,7 +169,7 @@ export default function Home() {
                         </div>
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">MHCF</div>
+                                <div className="font-serif font-bold text-blue-450 text-center">Multifamily Housing (MHCF)</div>
                                 <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <li>Novoco</li>
@@ -182,7 +182,7 @@ export default function Home() {
                         </div>
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">AMC</div>
+                                <div className="font-serif font-bold text-blue-450 text-center">Asset Mgmt &amp; Compliance (AMC)</div>
                                 <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <li>Links</li>

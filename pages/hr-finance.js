@@ -96,18 +96,16 @@ export default function HrFinance(){
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="v1621966138/PtAngeles-sep2019-6081_fol4s3.jpg"
-                                        alt="ptangeles-2019" 
+                                        src="v1625078012/Sisters_Haven_family_Spokane_6-19_va3002.jpg"
+                                        alt="sister-haven-spokane" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
                                 </div>
                             </div>
                         </div>
