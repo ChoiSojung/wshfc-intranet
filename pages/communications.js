@@ -40,7 +40,7 @@ export default function Communications(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-gray-100">
-                                <i>NEW!</i> Finished your official document/project and looking to add that final Commission authenticity? Look no further! Here you will find all things Commission and affiliate branded! Letterheads, Powerpoints, templates, styleguides, logos, publications, and MORE! If you can’t find what you need, just use the search bar.
+                                <i><b>NEW!</b></i> Finished your official document/project and looking to add that final Commission authenticity? Look no further! Here you will find all things Commission and affiliate branded! Letterheads, Powerpoints, templates, styleguides, logos, publications, and MORE! If you can’t find what you need, just use the search bar.
                             </p>
                         </div>
                     </div>
@@ -90,23 +90,23 @@ export default function Communications(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg"
-                                        alt="spokane-day1" 
+                                        src="v1630517259/Communications%20page/PtAngeles-sep2019-6435_r1ljqn.jpg"
+                                        alt="ptangeles-2019" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg"
+                                        src="v1630517193/Communications%20page/PtAngeles-sep2019-5943_og6md0.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                         </div>
@@ -122,10 +122,10 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Templates</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Letterheads</li>
-                                            <li>Powerpoints</li>
-                                            <li>Memos</li>
-                                            <li>Commission Agenda Sample</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Letterheads</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Powerpoints</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Memos</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commission Agenda Sample</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -136,9 +136,9 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Logos</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>WSHFC</li>
-                                            <li>WHEFA</li>
-                                            <li>TSA</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>WSHFC</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>WHEFA</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>TSA</li></a>
                                         </ul>
                                         
                                     </div>
@@ -156,9 +156,9 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Marketing Materials</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Homeownership</li>
-                                            <li>Multifamily</li>
-                                            <li>Asset Management &amp; Compliance</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Homeownership</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Multifamily</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Asset Management &amp; Compliance</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -169,11 +169,11 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Social Media</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Web Content and Social Media Use</li>
-                                            <li>Facebook</li>
-                                            <li>Twitter</li>
-                                            <li>Instagram</li>
-                                            <li>YouTube</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Web Content and Social Media Use</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Facebook</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Twitter</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Instagram</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>YouTube</li></a>
                                         </ul>
                                         
                                     </div>
@@ -191,10 +191,10 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Guides</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Graphic Standards Guide</li>
-                                            <li>To Hyphenate or Not to Hyphenate</li>
-                                            <li>Styleguide</li>
-                                            <li>Quick Style Sheet for Contractors</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Graphic Standards Guide</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>To Hyphenate or Not to Hyphenate</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Styleguide</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Quick Style Sheet for Contractors</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -205,9 +205,9 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-red-450 text-lg text-center">Publications</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Annual/Impact Reports</li>
-                                            <li>Commission Newsletters</li>
-                                            <li>History Books</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Annual/Impact Reports</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commission Newsletters</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>History Books</li></a>
                                         </ul>
                                         
                                     </div>
@@ -225,7 +225,7 @@ export default function Communications(){
                                     <div className="font-bold text-gray-700 text-lg text-center"></div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Communications Plan</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Communications Plan</li></a>
                                         </ul>
                                         
                                     </div>

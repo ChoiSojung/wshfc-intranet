@@ -42,7 +42,7 @@ export default function About(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-350">
-                                <i>NEW!</i> TBD
+                                <i><b>NEW!</b></i> TBD
                             </p>
                         </div>
                     </div>
@@ -74,23 +74,23 @@ export default function About(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069615/Liberty_Bank_opening_r8yfln.jpg"
-                                        alt="liberty-bank-opening" 
+                                        src="v1627069593/About%20page/Spokane-dayA-cc-1364_w7vqm0.jpg"
+                                        alt="spokane-day" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069606/PtAngeles-sep2019-6072_yvr8pb.jpg"
+                                        src="v1621966138/About%20page/PtAngeles-sep2019-6081_fol4s3.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                         </div>
@@ -105,10 +105,10 @@ export default function About(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-yellow-600 text-center">History</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Mission/Values/Vision</li>
-                                            <li>Commission Enabling Legislation</li>
-                                            <li>20 year report</li>
-                                            <li>30 year look back</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Mission/Values/Vision</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commission Enabling Legislation</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>20 year report</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>30 year look back</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -119,12 +119,12 @@ export default function About(){
                                     <div className="font-serif font-bold text-yellow-600 text-lg text-center">Info Library</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Acronyms and Commonly Used Words</li>
-                                            <li>Tax Credit Program</li>
-                                            <li>Homeownership</li>
-                                            <li>Sustainable Energy Trust (SET)</li>
-                                            <li>Beginning Farmer/Rancher</li>
-                                            <li>501c3 Bonds</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Acronyms and Commonly Used Words</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Tax Credit Program</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Homeownership</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Sustainable Energy Trust (SET)</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Beginning Farmer/Rancher</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>501c3 Bonds</li></a>
                                         </ul>
                                         
                                     </div>
@@ -142,13 +142,13 @@ export default function About(){
                                     <div className="font-serif font-bold text-yellow-600 text-lg text-center">Internal</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Division Organizational Chart</li>
-                                            <li>Safety Committee</li>
-                                            <li>Sustainable Practices Plan &amp; Green Committee</li>
-                                            <li>Executive Management Team (EMT) Description and Meeting Notes</li>
-                                            <li>Administration Managment Team (AMT) Description and Meeting Notes</li>                              
-                                            <li>Data Analytics Team (DAT) Description and Meeting Notes</li>
-                                            <li>Project Watchlist Procedure (PROWL)</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Division Organizational Chart</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Safety Committee</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Sustainable Practices Plan &amp; Green Committee</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Executive Management Team (EMT) Description and Meeting Notes</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Administration Managment Team (AMT) Description and Meeting Notes</li></a>                              
+                                            <a className="hover:underline text-blue-450" src="#"><li>Data Analytics Team (DAT) Description and Meeting Notes</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Project Watchlist Procedure (PROWL)</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -159,12 +159,12 @@ export default function About(){
                                     <div className="font-serif font-bold text-yellow-600 text-lg text-center">Commissioner/Board Meetings</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Link to Commissioners page on WSHFC website</li>
-                                            <li>Commissioner Relations</li>
-                                            <li>Commission Meeting Packets/Agendas</li>
-                                            <li>Public Hearings and Meeting Notices</li>
-                                            <li>Commission Agenda Sample</li>
-                                            <li>Commissioner Time Record</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Link to Commissioners page on WSHFC website</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commissioner Relations</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commission Meeting Packets/Agendas</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Public Hearings and Meeting Notices</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commission Agenda Sample</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Commissioner Time Record</li></a>
                                         </ul>
                                         
                                     </div>

@@ -70,12 +70,12 @@ export default function Home() {
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-gray-700 text-lg text-blue-450 text-center">History</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <li>Mission/Values/Vision</li>
-                                        <li>Commission Enabling Legislation</li>
-                                        <li>20 year report</li>
-                                        <li>30 year look back</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Mission/Values/Vision</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Enabling Legislation</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>20 year report</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>30 year look back</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -84,14 +84,14 @@ export default function Home() {
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Info Library</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <li>Acronyms and Commonly Used Words</li>
-                                        <li>Tax Credit Program</li>
-                                        <li>Homeownership</li>
-                                        <li>Sustainable Energy Trust (SET)</li>
-                                        <li>Beginning Farmer/Rancher</li>
-                                        <li>501c3 Bonds</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Acronyms and Commonly Used Words</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Tax Credit Program</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Homeownership</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Sustainable Energy Trust (SET)</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Beginning Farmer/Rancher</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>501c3 Bonds</li></a>
                                     </ul>
                                     
                                 </div>
@@ -107,15 +107,15 @@ export default function Home() {
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Internal</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <li>Division Organizational Chart</li>
-                                        <li>Safety Committee</li>
-                                        <li>Sustainable Practices Plan &amp; Green Committee</li>
-                                        <li>Executive Management Team (EMT) Description and Meeting Notes</li>
-                                        <li>Administration Managment Team (AMT) Description and Meeting Notes</li>                              
-                                        <li>Data Analytics Team (DAT) Description and Meeting Notes</li>
-                                        <li>Project Watchlist Procedure (PROWL)</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Division Organizational Chart</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Safety Committee</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Sustainable Practices Plan &amp; Green Committee</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Executive Management Team (EMT) Description and Meeting Notes</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Administration Managment Team (AMT) Description and Meeting Notes</li></a>                              
+                                        <a className="hover:underline text-blue-450" src="#"><li>Data Analytics Team (DAT) Description and Meeting Notes</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Project Watchlist Procedure (PROWL)</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -124,14 +124,14 @@ export default function Home() {
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Commissioner/Board Meetings</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <li>Link to Commissioners page on WSHFC website</li>
-                                        <li>Commissioner Relations</li>
-                                        <li>Commission Meeting Packets/Agendas</li>
-                                        <li>Public Hearings and Meeting Notices</li>
-                                        <li>Commission Agenda Sample</li>
-                                        <li>Commissioner Time Record</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Link to Commissioners page on WSHFC website</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Commissioner Relations</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Meeting Packets/Agendas</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Public Hearings and Meeting Notices</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Agenda Sample</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Commissioner Time Record</li></a>
                                     </ul>
                                     
                                 </div>
@@ -146,10 +146,10 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-center">Admin</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <li>Link</li>
-                                        <li>Link</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -158,10 +158,10 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-center">Homeownership</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <li>Home Advantage Rates</li>
-                                        <li>Link</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Home Advantage Rates</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
                                     </ul>
                                     
                                 </div>
@@ -170,11 +170,11 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-center">Multifamily Housing (MHCF)</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <li>Novoco</li>
-                                        <li>NCSHA</li>
-                                        <li>ENR</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Novoco</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>NCSHA</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>ENR</li></a>
                                     </ul>
                                     
                                 </div>
@@ -183,10 +183,10 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-blue-450 text-center">Asset Mgmt &amp; Compliance (AMC)</div>
-                                <div className="mt-4 text-gray-700 text-sm text-center">
+                                <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <li>Links</li>
-                                        <li>Link</li>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Links</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
                                     </ul>
                                     
                                 </div>

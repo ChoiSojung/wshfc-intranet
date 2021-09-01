@@ -24,7 +24,7 @@ export default function HomeWrapper({children}){
                                     <a className="hover:underline text-blue-350" href="#"><li>Leave</li></a>
                                     <a className="hover:underline text-blue-350" href="http://wshfc.org/" target="blank"><li>WSHFC</li></a>
                                     <a className="hover:underline text-blue-350" href="https://login.salesforce.com/" target="blank"><li>Homebase</li></a>
-                                    <a className="hover:underline text-blue-350" href="#"><li>Pictorial Guide</li></a>
+                                    <a className="hover:underline text-blue-350" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=29176&dbid=0&repo=WSHFC"><li>Pictorial Guide</li></a>
                                     <a className="hover:underline text-blue-350" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>Employee Self Services</li></a>     
                             </ul>
                             

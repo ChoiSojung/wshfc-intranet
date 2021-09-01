@@ -41,7 +41,7 @@ export default function CFD(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-350">
-                                <i>NEW!</i> TBD
+                                <i><b>NEW!</b></i> TBD
                             </p>
                         </div>
                     </div>

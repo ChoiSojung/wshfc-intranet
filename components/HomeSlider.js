@@ -16,10 +16,9 @@ export default function HomeSlider(){
             onSlideChange={()=>console.log('slide change')}
             onSwiper={(swiper)=>console.log(swiper)}
         >
-            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1625078007/PtAngeles-sep2019-6400_l1y5lw.jpg"/></SwiperSlide>
-            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1625078012/Sisters_Haven_family_Spokane_6-19_va3002.jpg"/></SwiperSlide>
-            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1621966138/PtAngeles-sep2019-6081_fol4s3.jpg"/></SwiperSlide>
-
+            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1627069615/Home%20page/Liberty_Bank_opening_r8yfln.jpg" alt="liberty-bank-opening"/></SwiperSlide>
+            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1627069600/Home%20page/PtAngeles-sep2019-6405_f6xrbw.jpg" alt="ptangeles-2019"/></SwiperSlide>
+            <SwiperSlide><img src="https://res.cloudinary.com/wshfc/image/upload/v1625078006/Home%20page/Spokane-dayA-cc-0028_mylwpd.jpg" alt="spokane-day"/></SwiperSlide>
         </Swiper>
     )
 }

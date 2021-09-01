@@ -40,7 +40,7 @@ export default function IT(){
                                 </a>
                             </Link>
                             <p className="text-center py-2 text-xl text-blue-450">
-                                <i>NEW!</i> Information Technology is the one stop shop for all things…..tech! Whether you’re looking to solve a problem, learn how to use a new program, or login to your Office 365 filtering service, IT has it all. If you can’t find what you need, just use the search bar.
+                                <i><b>NEW!</b></i> Information Technology is the one stop shop for all things…..tech! Whether you’re looking to solve a problem, learn how to use a new program, or login to your Office 365 filtering service, IT has it all. If you can’t find what you need, just use the search bar.
                             </p>
                         </div>
                     </div>
@@ -91,23 +91,23 @@ export default function IT(){
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069588/PtAngeles-sep2019-6153_kijstc.jpg"
-                                        alt="spokane-day1" 
+                                        src="v1627069606/IT%20page/PtAngeles-sep2019-6072_yvr8pb.jpg"
+                                        alt="ptangeles-2019" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="h-full flex flex-col items-center md:mx-2">
                                     <Image
-                                        src="https://res.cloudinary.com/wshfc/image/upload/v1627069593/Spokane-dayA-cc-1364_w7vqm0.jpg"
+                                        src="v1627069588/IT%20page/PtAngeles-sep2019-6153_kijstc.jpg"
                                         alt="ptangeles-2019" 
                                         width={600}
                                         height={400}
                                     />
-                                    <p className="text-sm italic">Caption</p>
+                                    <p className="text-sm italic"></p>
                                 </div>
                             </div>
                         </div>
@@ -123,13 +123,13 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-600 text-lg text-center">Policies</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Classification Policy</li>
-                                            <li>Exempt Banding Policy</li>
-                                            <li>Salary Determination</li>
-                                            <li>Washington Management Services</li>
-                                            <li>Position Description General Service</li>
-                                            <li>Position Description</li>
-                                            <li>State Employment Application</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Classification Policy</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -139,13 +139,13 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-600 text-lg text-center">Equipment</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Classification Policy</li>
-                                            <li>Exempt Banding Policy</li>
-                                            <li>Salary Determination</li>
-                                            <li>Washington Management Services</li>
-                                            <li>Position Description General Service</li>
-                                            <li>Position Description</li>
-                                            <li>State Employment Application</li>
+                                            <a href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=28985&dbid=0&repo=WSHFC"><li>Mail Machine Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -162,13 +162,13 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-600 text-lg text-center">Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Classification Policy</li>
-                                            <li>Exempt Banding Policy</li>
-                                            <li>Salary Determination</li>
-                                            <li>Washington Management Services</li>
-                                            <li>Position Description General Service</li>
-                                            <li>Position Description</li>
-                                            <li>State Employment Application</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Classification Policy</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -179,9 +179,9 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-600 text-lg text-center">Links</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Pictorial Guide</li>
-                                            <li>About the Commission</li>
-                                            <li>New Hire HR Packet</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -198,9 +198,9 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-600 text-lg text-center">Fact Sheets/How-to</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <li>Pictorial Guide</li>
-                                            <li>About the Commission</li>
-                                            <li>New Hire HR Packet</li>
+                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
+                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
                                         </ul>
                                     </div>
                                 </div>
