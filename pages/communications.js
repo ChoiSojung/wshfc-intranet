@@ -113,13 +113,13 @@ export default function Communications(){
 
                         
                         <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="templates_logos">Templates &amp; Logos</h2>
+                            <h2 className="text-xl font-bold text-red-450 text-center" id="templates_logos">Templates &amp; Logos</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Templates</div>
+                                    <div className="font-serif font-bold text-blue-350 text-lg text-center">Templates</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <a className="hover:underline text-blue-450" src="#"><li>Letterheads</li></a>
@@ -133,7 +133,7 @@ export default function Communications(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-red-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-red-450 text-lg text-center">Logos</div>
+                                    <div className="font-serif font-bold text-blue-350 text-lg text-center">Logos</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <a className="hover:underline text-blue-450" src="#"><li>WSHFC</li></a>
