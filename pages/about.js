@@ -105,7 +105,7 @@ export default function About(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-yellow-600 text-center">History</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Mission/Values/Vision</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31642&dbid=0&repo=WSHFC"><li>Mission/Values/Vision</li></a>
                                             <a className="hover:underline text-blue-450" src="#"><li>Commission Enabling Legislation</li></a>
                                             <a className="hover:underline text-blue-450" src="#"><li>20 year report</li></a>
                                             <a className="hover:underline text-blue-450" src="#"><li>30 year look back</li></a>
