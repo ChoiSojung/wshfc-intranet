@@ -62,14 +62,14 @@ export default function Home() {
                     </div>
                     
 
-                    <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                        <h2 className="text-xl text-blue-350 text-center" id="commission">The Commission</h2>
+                    <div className="bg-blue-450 mt-10 p-2">
+                        <h2 className="text-xl text-gray-100 text-center" id="commission">The Commission</h2>
                     </div>
                     
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-gray-700 text-lg text-blue-450 text-center">History</div>
+                                <div className="font-serif font-bold text-gray-700 text-lg text-gray-700 text-center">History</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li>Mission/Values/Vision</li></a>
@@ -83,7 +83,7 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">Info Library</div>
+                                <div className="font-serif font-bold text-lg text-gray-700 text-center">Info Library</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li>Acronyms and Commonly Used Words</li></a>
@@ -99,14 +99,14 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                        <h2 className="text-xl text-blue-350 text-center" id="organization">Organization</h2>
+                    <div className="bg-blue-450 mt-16 p-2">
+                        <h2 className="text-xl text-gray-100 text-center" id="organization">Organization</h2>
                     </div>
                     
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">Internal</div>
+                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Internal</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li>Division Organizational Chart</li></a>
@@ -123,7 +123,7 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-lg text-center">Commissioner/Board Meetings</div>
+                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Commissioner/Board Meetings</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li>Link to Commissioners page on WSHFC website</li></a>
@@ -138,18 +138,18 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                        <h2 className="text-xl text-blue-350 text-center" id="division_links">Division Specific Links</h2>
+                    <div className="bg-blue-450 mt-16 p-2">
+                        <h2 className="text-xl text-gray-100 text-center" id="division_links">Division Specific Links</h2>
                     </div>
                     
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-center">Admin</div>
+                                <div className="font-serif font-bold text-gray-700 text-center">Admin</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -157,11 +157,11 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-center">Homeownership</div>
+                                <div className="font-serif font-bold text-gray-700 text-center">Homeownership</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Home Advantage Rates</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                     </ul>
                                     
                                 </div>
@@ -169,12 +169,12 @@ export default function Home() {
                         </div>
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-center">Multifamily Housing (MHCF)</div>
+                                <div className="font-serif font-bold text-gray-700 text-center">Multifamily Housing (MHCF)</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Novoco</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>NCSHA</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>ENR</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                     </ul>
                                     
                                 </div>
@@ -182,11 +182,11 @@ export default function Home() {
                         </div>
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-blue-450 text-center">Asset Mgmt &amp; Compliance (AMC)</div>
+                                <div className="font-serif font-bold text-gray-700 text-center">Asset Mgmt &amp; Compliance (AMC)</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Links</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Link</li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                     </ul>
                                     
                                 </div>

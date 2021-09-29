@@ -119,12 +119,12 @@ export default function EmployeeResources(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Alternative Work Schedule</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Alternative Work Schedule</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Alternative Work Schedule Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Telecommute Application</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Telecommute Equipment Agreement</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Alternative Work Schedule Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Telecommute Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Telecommute Equipment Agreement</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -132,88 +132,28 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Infants at Work</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Infants at Work</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Deputy Director Orientation Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Intranet Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Employee Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Personnel Orientation Checklist</li></a>
-                                        </ul>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div className="flex flex-col md:flex-row md:-mx-2">
-                            <div className="mt-4 md:w-1/2">
-                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Remote Access</div>
-                                    <div className="mt-4 text-gray-700 text-sm text-center">
-                                        <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Remote Access Policy Acceptance</li></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="mt-4 md:w-1/2">
-                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Reasonable Accomodation</div>
-                                    <div className="mt-4 text-gray-700 text-sm text-center">
-                                        <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Accommodation Request</li></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="facilities">Facilities</h2>
-                        </div>
-
-                        <div className="flex flex-col md:flex-row md:-mx-2">
-                            <div className="mt-4 md:w-1/2">
-                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Equipment and Office Supplies</div>
-                                    <div className="mt-4 text-gray-700 text-sm text-center">
-                                        <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="mt-4 md:w-1/2">
-                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Purchasing and Ordering</div>
-                                    <div className="mt-4 text-gray-700 text-sm text-center">
-                                        <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>WA State HR Page</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Health Coverage</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Frontline Employee Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Retirement</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Deputy Director Orientation Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Intranet Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>New Employee Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Personnel Orientation Checklist</li></a>
                                         </ul>
                                         
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Conference/Board Rooms</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Remote Access</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Remote Access Policy Acceptance</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -221,13 +161,82 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Facility Updates</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Reasonable Accomodation</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>WA State HR Page</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Health Coverage</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Frontline Employee Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Retirement</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Accommodation Request</li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-blue-600 mt-16 p-2">
+                            <h2 className="text-xl text-gray-100 text-center" id="facilities">Facilities</h2>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row md:-mx-2">
+                            <div className="mt-4 md:w-1/2">
+                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Equipment and Office Supplies</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
+                                        <ul className="list-decimal list-inside">
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Care and Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer File Storage</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Shared Software</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Software and Upgrades</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Virus Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Internet Access &amp; Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Equipment Checkout</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Wireless Device</li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-4 md:w-1/2">
+                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Purchasing and Ordering</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
+                                        <ul className="list-decimal list-inside">
+                                            <a className="hover:underline text-blue-450" href="#"><li>Capital Assets</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Cash Receipts</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Purchasing</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Purchasing Card Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Signature Authority</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Cash Receipts Log</li></a>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row md:-mx-2">
+                            <div className="mt-4 md:w-1/2">
+                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Conference/Board Rooms</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
+                                        <ul className="list-decimal list-inside">
+                                            <a className="hover:underline text-blue-450" href="#"><li>Reception Protocol and Security</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Meetings</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Board and Training Room Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Board Room Set-Up Chart</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Meeting Room Reservation</li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-4 md:w-1/2">
+                                <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Facility Updates</div>
+                                    <div className="mt-4 text-gray-700 text-sm text-center">
+                                        <ul className="list-decimal list-inside">
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
                                         </ul>
                                         
                                     </div>
@@ -238,34 +247,35 @@ export default function EmployeeResources(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Building Information</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Building Information</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Office Closure Due to Inclement Weather</li></a>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="conduct_evaluations">Conduct &amp; Evaluations</h2>
+                        <div className="bg-blue-600 mt-16 p-2">
+                            <h2 className="text-xl text-gray-100 text-center" id="conduct_evaluations">Conduct &amp; Evaluations</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Conduct/Expectations</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Conduct/Expectations</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Leave/Overtime Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Employee Self Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Medical Certificate</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Recipient Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Donor Request</li></a>                              
-                                            <a className="hover:underline text-blue-450" src="#"><li>Uniformed Service Shared Leave Pool</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Whistleblower</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Anti-Discrimination Harassment and Sexual Harassment</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Conflict Resolution</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Discipline Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Professional Attire</li></a>                              
+                                            <a className="hover:underline text-blue-450" href="#"><li>Professional Conduct/Conflict/Resolution</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Investigation of Suspected Misconduct</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Respectful Work Environment</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Nonprofit Board Participation</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -273,12 +283,12 @@ export default function EmployeeResources(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Evaluations</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Authorization (Advance)</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Expense Voucher</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Itinerary</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance Evaluation</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance Management</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance and Development</li></a>
                                         </ul>
                                         
                                     </div>
@@ -286,25 +296,18 @@ export default function EmployeeResources(){
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="recognition_training">Recognition &amp; Training</h2>
+                        <div className="bg-blue-600 mt-16 p-2">
+                            <h2 className="text-xl text-gray-100 text-center" id="recognition_training">Recognition &amp; Training</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Employee Recognition</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Employee Recognition</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Hiring</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Orientation Procedures</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reduction in Force</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Temporary Help</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reference Check Release</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Jobs</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Contracting</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Employee Recognition</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Employee Recognition Nomination</li></a>
                                         </ul>
                                         
                                     </div>
@@ -312,13 +315,12 @@ export default function EmployeeResources(){
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-600 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-blue-600 text-lg text-center">Employee Education</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Employee Education</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Evaluations</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance and Development Plan</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management Competency Examples</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Lynda Learning</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Employee Certificate and Degree Program Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Employee Certificate and Degree Program Prioritization</li></a>
                                         </ul>
                                     </div>
                                 </div>

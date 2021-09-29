@@ -104,29 +104,29 @@ export default function HrFinance(){
                                         src="v1621966145/HR-Finance%20page/Spokane-day1-cc-2402_uowdmt.jpg"
                                         alt="spokane-day" 
                                         width={600}
-                                        height={400}
+                                        height={400} 
                                     />
                                 </div>
                             </div>
                         </div>
 
                         
-                        <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="manager_resources">Manager Resources</h2>
+                        <div className="bg-green-450 mt-10 p-2">
+                            <h2 className="text-xl text-gray-200 text-center" id="manager_resources">Manager Resources</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Commission Job</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Commission Job</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Classification Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Classification Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Exempt Banding Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Salary Determination</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Washington Management Services</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Position Description General Service</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Position Description</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -134,18 +134,18 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Hiring</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Hiring</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Hiring</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Orientation Procedures</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reduction in Force</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Temporary Help</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reference Check Release</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Jobs</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Contracting</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Hiring</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Orientation Procedures</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Position Description General Service</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Reduction in Force</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Temporary Help</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Reference Check Release</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>State Employment Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Jobs</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Contracting</li></a>
                                         </ul>
                                         
                                     </div>
@@ -157,13 +157,13 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">For the Employer</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">For the Employer</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Deputy Director Orientation Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Intranet Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Employee Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Personnel Orientation Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Deputy Director Orientation Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Intranet Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>New Employee Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Personnel Orientation Checklist</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -171,13 +171,13 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Evaluations</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Evaluations</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance and Development Plan</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management Competency Examples</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance Evaluations</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance Management</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance and Development Plan</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Performance Management Competency Examples</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -187,13 +187,13 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Miscellaneous</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Miscellaneous</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Exemption Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Frontline Supervisor Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Great Job Program</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Discipline Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Exemption Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Frontline Supervisor Newsletter</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Great Job Program</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Discipline Policy</li></a>
                                         </ul>
                                         
                                     </div>
@@ -201,19 +201,19 @@ export default function HrFinance(){
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="employee_resources">New Employee Resources</h2>
+                        <div className="bg-green-450 mt-16 p-2">
+                            <h2 className="text-xl text-gray-200 text-center" id="employee_resources">New Employee Resources</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Internal Resources</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Internal Resources</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Pictorial Guide</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>About the Commission</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>New Hire HR Packet</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -221,13 +221,13 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">External Links</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">External Links</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>WA State HR Page</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Health Coverage</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Frontline Employee Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Retirement</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>WA State HR Page</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Health Coverage</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Frontline Employee Newsletter</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Retirement</li></a>
                                         </ul>
                                         
                                     </div>
@@ -235,22 +235,22 @@ export default function HrFinance(){
                             </div>
                         </div>
                         
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
+                        <div className="bg-green-450 mt-16 p-2">
+                            <h2 className="text-xl text-gray-200 text-center" id="timesheet_leave_comp">Timesheet, Leave &amp; Compensation</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Leave</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Leave</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Leave/Overtime Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Employee Self Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Medical Certificate</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Recipient Request</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Shared Leave Donor Request</li></a>                              
-                                            <a className="hover:underline text-blue-450" src="#"><li>Uniformed Service Shared Leave Pool</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Leave/Overtime Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Employee Self Service</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Shared Leave Medical Certificate</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Shared Leave Recipient Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Shared Leave Donor Request</li></a>                              
+                                            <a className="hover:underline text-blue-450" href="#"><li>Uniformed Service Shared Leave Pool</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -258,12 +258,12 @@ export default function HrFinance(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Travel</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Travel</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Authorization (Advance)</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Expense Voucher</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Travel Itinerary</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Travel Authorization (Advance)</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Travel Expense Voucher</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Travel Itinerary</li></a>
                                         </ul>
                                         
                                     </div>
@@ -271,25 +271,19 @@ export default function HrFinance(){
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="wellness_training">Wellness &amp; Training</h2>
+                        <div className="bg-green-450 mt-16 p-2">
+                            <h2 className="text-xl text-gray-200 text-center" id="wellness_training">Wellness &amp; Training</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Required Training</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Required Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Hiring</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Orientation Procedures</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reduction in Force</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Temporary Help</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reference Check Release</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Jobs</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Contracting</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
                                         </ul>
                                         
                                     </div>
@@ -297,13 +291,13 @@ export default function HrFinance(){
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Additional Training</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Additional Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Evaluations</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance and Development Plan</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Performance Management Competency Examples</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -313,18 +307,13 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-green-450 text-lg text-center">Wellness</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Wellness</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Hiring</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Orientation Procedures</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reduction in Force</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Temporary Help</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Reference Check Release</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Jobs</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Contracting</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
                                         </ul>
                                     </div>
                                 </div>

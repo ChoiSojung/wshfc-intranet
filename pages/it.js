@@ -113,62 +113,55 @@ export default function IT(){
                         </div>
 
                         
-                        <div className="bg-gray-450 mt-10 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="policies_equipment">Policies &amp; Equipment</h2>
+                        <div className="bg-gray-400 mt-10 p-2">
+                            <h2 className="text-xl text-blue-450 text-center" id="policies_equipment">Policies &amp; Equipment</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Policies</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Policies</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Classification Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Equipment</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Equipment</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=28985&dbid=0&repo=WSHFC"><li>Mail Machine Instructions</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Care and Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Shared Software</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Software and Upgrades</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Virus Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Internet Access &amp; Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Equipment Checkout</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Wireless Device</li></a>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="training_links">Training &amp; Links</h2>
+                        <div className="bg-gray-400 mt-16 p-2">
+                            <h2 className="text-xl text-blue-450 text-center" id="training_links">Training &amp; Links</h2>
                         </div>
                         
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className=" bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Training</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Classification Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Exempt Banding Policy</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Salary Determination</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Washington Management Services</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description General Service</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>Position Description</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>State Employment Application</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Security Awareness Training</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Office Quick Reference Guides</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>WEBEX Tutorial</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>WEBEX Training Center</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -176,45 +169,49 @@ export default function IT(){
 
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Links</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Links</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Mimecast Spam Filter Employee Access</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Office 365 Exchange Filtering Services</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Homebase</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Navision Web Client</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>WSHFC</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>WHEFA</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>TSA</li></a>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="facts">Fact Sheets/How-to</h2>
+                        <div className="bg-gray-400 mt-16 p-2">
+                            <h2 className="text-xl text-blue-450 text-center" id="facts">Fact Sheets/How-to</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Fact Sheets/How-to</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Fact Sheets/How-to</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" src="#"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" src="#"><li>New Hire HR Packet</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Mimecast Spam Filter Employee Access Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>F5 Set-Up Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="#"><li>Postage Meter Instructions</li></a>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div className="bg-gray-450 mt-16 p-2 border-2 border-gray-400">
-                            <h2 className="text-xl text-blue-350 text-center" id="help">Need Help?</h2>
+                        <div className="bg-gray-400 mt-16 p-2">
+                            <h2 className="text-xl text-blue-450 text-center" id="help">Need Help?</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                             <div className="mt-4 md:w-full">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-gray-400 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-600 text-lg text-center">Help</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Request support <a className="hover:underline text-blue-450" href="mailto:itsupport@wshfc.org">here</a></div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         
                                     </div>
