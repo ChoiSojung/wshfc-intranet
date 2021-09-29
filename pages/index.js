@@ -72,10 +72,10 @@ export default function Home() {
                                 <div className="font-serif font-bold text-gray-700 text-lg text-blue-450 text-center">History</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Mission/Values/Vision</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Enabling Legislation</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>20 year report</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>30 year look back</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31642&dbid=0&repo=WSHFC"><li>Mission/Values/Vision</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31641&dbid=0&repo=WSHFC"><li>Commission Enabling Legislation</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31639&dbid=0&repo=WSHFC"><li>20 year report</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31640&dbid=0&repo=WSHFC"><li>30 year look back</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -86,9 +86,9 @@ export default function Home() {
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Info Library</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Acronyms and Commonly Used Words</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Tax Credit Program</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Homeownership</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31644&dbid=0&repo=WSHFC"><li>Acronyms and Commonly Used Words</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31649&dbid=0&repo=WSHFC"><li>Tax Credit Program</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31648&dbid=0&repo=WSHFC"><li>Homeownership</li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li>Sustainable Energy Trust (SET)</li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li>Beginning Farmer/Rancher</li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li>501c3 Bonds</li></a>
@@ -109,13 +109,13 @@ export default function Home() {
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Internal</div>
                                 <div className="mt-4 text-gray-700 text-sm">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Division Organizational Chart</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Safety Committee</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Sustainable Practices Plan &amp; Green Committee</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Executive Management Team (EMT) Description and Meeting Notes</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Administration Managment Team (AMT) Description and Meeting Notes</li></a>                              
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31633&dbid=0&repo=WSHFC"><li>Division Organizational Chart</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31635&dbid=0&repo=WSHFC"><li>Safety Committee</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31636&dbid=0&repo=WSHFC"><li>Sustainable Practices Plan &amp; Green Committee</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31632&dbid=0&repo=WSHFC"><li>Executive Management Team (EMT) Description and Meeting Notes</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31631&dbid=0&repo=WSHFC"><li>Administration Managment Team (AMT) Description and Meeting Notes</li></a>                              
                                         <a className="hover:underline text-blue-450" src="#"><li>Data Analytics Team (DAT) Description and Meeting Notes</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Project Watchlist Procedure (PROWL)</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31634&dbid=0&repo=WSHFC"><li>Project Watchlist Procedure (PROWL)</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -126,12 +126,12 @@ export default function Home() {
                                 <div className="font-serif font-bold text-blue-450 text-lg text-center">Commissioner/Board Meetings</div>
                                 <div className="mt-4 text-gray-700 text-sm ">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" src="#"><li>Link to Commissioners page on WSHFC website</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Commissioner Relations</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Meeting Packets/Agendas</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Public Hearings and Meeting Notices</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Commission Agenda Sample</li></a>
-                                        <a className="hover:underline text-blue-450" src="#"><li>Commissioner Time Record</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31628&dbid=0&repo=WSHFC"><li>Link to Commissioners page on WSHFC website</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31629&dbid=0&repo=WSHFC"><li>Commissioner Relations</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31627&dbid=0&repo=WSHFC"><li>Commission Meeting Packets/Agendas</li></a>
+                                        <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/meetings.htm"><li>Public Hearings and Meeting Notices</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=32298&dbid=0&repo=WSHFC"><li>Commission Agenda Sample</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=32297&dbid=0&repo=WSHFC"><li>Commissioner Time Record</li></a>
                                     </ul>
                                     
                                 </div>
