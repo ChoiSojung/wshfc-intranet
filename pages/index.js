@@ -70,12 +70,12 @@ export default function Home() {
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-gray-700 text-lg text-gray-700 text-center">History</div>
-                                <div className="mt-4 text-gray-700 text-sm">
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31642&dbid=0&repo=WSHFC"><li>Mission/Values/Vision</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31641&dbid=0&repo=WSHFC"><li>Commission Enabling Legislation</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31639&dbid=0&repo=WSHFC"><li>20 year report</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31640&dbid=0&repo=WSHFC"><li>30 year look back</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31641&dbid=0&repo=WSHFC"><li>Commission Enabling Legislation**</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31639&dbid=0&repo=WSHFC"><li>First 20 Years</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31640&dbid=0&repo=WSHFC"><li>30 Year Review</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -83,15 +83,15 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-lg text-gray-700 text-center">Info Library</div>
-                                <div className="mt-4 text-gray-700 text-sm">
+                                <div className="font-serif font-bold text-lg text-gray-700 text-center">Division Overviews</div>
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31644&dbid=0&repo=WSHFC"><li>Acronyms and Commonly Used Words</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31646&dbid=0&repo=WSHFC"><li>Admin &amp; IT</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31648&dbid=0&repo=WSHFC"><li>Homeownership</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31645&dbid=0&repo=WSHFC"><li>AMC</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31633&dbid=0&repo=WSHFC"><li>Organizational Chart</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31649&dbid=0&repo=WSHFC"><li>Multifamily Housing &amp; Community Facilities (MHCF)</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31645&dbid=0&repo=WSHFC"><li>Asset Management &amp; Compliance (AMC)</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31648&dbid=0&repo=WSHFC"><li>Homeownership (HO)</li></a>
                                         <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31647&dbid=0&repo=WSHFC"><li>Finance</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31649&dbid=0&repo=WSHFC"><li>Multifamily</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31646&dbid=0&repo=WSHFC"><li>Administration &amp; IT</li></a>
                                     </ul>
                                     
                                 </div>
@@ -106,16 +106,15 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row md:-mx-2 mb-2">
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Internal</div>
+                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Teams &amp; Committees</div>
                                 <div className="mt-4 text-gray-700 text-sm">
-                                    <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31633&dbid=0&repo=WSHFC"><li>Division Organizational Chart</li></a>
+                                    <ul className="list-decimal list-inside text-center">
                                         <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31635&dbid=0&repo=WSHFC"><li>Safety Committee</li></a>
                                         <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31636&dbid=0&repo=WSHFC"><li>Sustainable Practices Plan &amp; Green Committee</li></a>
-                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\EMT"><li>Executive Management Team (EMT) Description and Meeting Notes</li></a>
-                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\AMT"><li>Administration Managment Team (AMT) Description and Meeting Notes</li></a>                              
-                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\DAT"><li>Data Analytics Team (DAT) Description and Meeting Notes</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31634&dbid=0&repo=WSHFC"><li>Project Watchlist Procedure (PROWL)</li></a>
+                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\EMT"><li>Executive Management Team (EMT)**</li></a>
+                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\AMT"><li>Administration Managment Team (AMT)**</li></a>                              
+                                        <a className="hover:underline text-blue-450" href="\\tinos\allstaff\DAT"><li>Data Analytics Team (DAT)**</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31634&dbid=0&repo=WSHFC"><li>PROject Watchlist (PROWL)</li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -123,15 +122,14 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/2">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Commissioner/Board Meetings</div>
-                                <div className="mt-4 text-gray-700 text-sm ">
+                                <div className="font-serif font-bold text-gray-700 text-lg text-center">Board Meetings</div>
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
-                                        <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/commission.htm"><li>Link to Commissioners page on WSHFC website</li></a>
+                                        <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/commission.htm"><li>Commissioners &amp; Executive Team</li></a>
                                         <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31629&dbid=0&repo=WSHFC"><li>Commissioner Relations</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31627&dbid=0&repo=WSHFC"><li>Commission Meeting Packets/Agendas</li></a>
-                                        <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/meetings.htm"><li>Public Hearings and Meeting Notices</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=32298&dbid=0&repo=WSHFC"><li>Commission Agenda Sample</li></a>
-                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=32297&dbid=0&repo=WSHFC"><li>Commissioner Time Record</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31627&dbid=0&repo=WSHFC"><li>Board Meeting Agendas &amp; Materials**</li></a>
+                                        <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/meetings.htm"><li>Board Meetings &amp; Public Hearings</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=32298&dbid=0&repo=WSHFC"><li>Sample Board Meeting Agenda</li></a>
                                     </ul>
                                     
                                 </div>
@@ -146,7 +144,7 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-gray-700 text-center">Admin</div>
-                                <div className="mt-4 text-gray-700 text-sm ">
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
@@ -157,8 +155,8 @@ export default function Home() {
 
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                <div className="font-serif font-bold text-gray-700 text-center">Homeownership</div>
-                                <div className="mt-4 text-gray-700 text-sm ">
+                                <div className="font-serif font-bold text-gray-700 text-center">Homeownership (HO)</div>
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
@@ -170,7 +168,7 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-gray-700 text-center">Multifamily Housing (MHCF)</div>
-                                <div className="mt-4 text-gray-700 text-sm ">
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
@@ -183,7 +181,7 @@ export default function Home() {
                         <div className="mt-4 md:w-1/4">
                             <div className="bg-gray-100 h-full p-8 border-b-4 border-blue-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
                                 <div className="font-serif font-bold text-gray-700 text-center">Asset Mgmt &amp; Compliance (AMC)</div>
-                                <div className="mt-4 text-gray-700 text-sm ">
+                                <div className="mt-4 text-gray-700 text-sm text-center">
                                     <ul className="list-decimal list-inside">
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
                                         <a className="hover:underline text-blue-450" src="#"><li></li></a>
