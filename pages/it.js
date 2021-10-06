@@ -123,9 +123,8 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Policies</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li></li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31833&dbid=0&repo=WSHFC"><li>Computer Virus Policy</li></a>
+                                        <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31834&dbid=0&repo=WSHFC"><li>Internet Access &amp; Use</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -135,13 +134,11 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Equipment</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Care and Use</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Shared Software</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Software and Upgrades</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Computer Virus Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Internet Access &amp; Use</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Equipment Checkout</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Wireless Device</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31815&dbid=0&repo=WSHFC"><li>Computer Care and Use</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31817&dbid=0&repo=WSHFC"><li>Computer Shared Software</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31818&dbid=0&repo=WSHFC"><li>Computer Software and Upgrades</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31819&dbid=0&repo=WSHFC"><li>Equipment Checkout</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31820&dbid=0&repo=WSHFC"><li>Wireless Device</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -158,10 +155,10 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="#"><li>Security Awareness Training</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Office Quick Reference Guides</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>WEBEX Tutorial</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>WEBEX Training Center</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://training.knowbe4.com/ui/login/UnVhzc2VsLklV2ZW5odWxlzQHdzkpaGZjuLm9yZw=="><li>Security Awareness Training</li></a>
+                                            <a className="hover:underline text-blue-450" href="\\tinos\allstaff\finance\IT\office2013quickGuides"><li>Office Quick Reference Guides</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/watch?v=zdZCGln8yus"><li>WEBEX Tutorial</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://help.webex.com/en-US/article/73lgs2/Cisco-Webex-Meetings"><li>WEBEX Training Center</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -172,13 +169,12 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Links</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="#"><li>Mimecast Spam Filter Employee Access</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Office 365 Exchange Filtering Services</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Homebase</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Navision Web Client</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>WSHFC</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>WHEFA</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>TSA</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://webmail-us.mimecast.com/u/login/?gta=portal#/login"><li>Mimecast Spam Filter Employee Access</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://admin.protection.outlook.com/quarantine/"><li>Office 365 Exchange Filtering Services</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://login.salesforce.com/"><li>Homebase</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://leucas:8080/Navigator/WebClient//default.aspx?company=WSHFC"><li>Navision Web Client - WSHFC</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://leucas:8080/Navigator/WebClient//default.aspx?company=WHEFA"><li>Navision Web Client - WHEFA</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://leucas:8080/Navigator/WebClient//default.aspx?company=TSA"><li>Navision Web Client - TSA</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -195,9 +191,9 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Fact Sheets/How-to</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="#"><li>Mimecast Spam Filter Employee Access Instructions</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>F5 Set-Up Instructions</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>Postage Meter Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31822&dbid=0&repo=WSHFC"><li>Mimecast Spam Filter Employee Access Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31823&dbid=0&repo=WSHFC"><li>F5 Set-Up Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31824&dbid=0&repo=WSHFC"><li>Postage Meter Instructions</li></a>
                                         </ul>
                                     </div>
                                 </div>
