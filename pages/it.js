@@ -135,8 +135,8 @@ export default function IT(){
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31815&dbid=0&repo=WSHFC"><li>Computer Care and Use</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31817&dbid=0&repo=WSHFC"><li>Computer Shared Software</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31818&dbid=0&repo=WSHFC"><li>Computer Software and Upgrades</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31817&dbid=0&repo=WSHFC"><li>Shared Software</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31818&dbid=0&repo=WSHFC"><li>Software and Upgrades</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31819&dbid=0&repo=WSHFC"><li>Equipment Checkout</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31820&dbid=0&repo=WSHFC"><li>Wireless Device</li></a>
                                         </ul>
