@@ -122,7 +122,7 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Alternative Work Schedule</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31740&dbid=0&repo=WSHFC"><li>Alternative Work Schedule Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31740&dbid=0&repo=WSHFC"><li>Alternative Work Schedule Request**</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31741&dbid=0&repo=WSHFC"><li>Telecommute Application</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31742&dbid=0&repo=WSHFC"><li>Telecommute Equipment Agreement</li></a>
                                         </ul>
@@ -135,11 +135,11 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Infants at Work</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31749&dbid=0&repo=WSHFC"><li>Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31745&dbid=0&repo=WSHFC"><li>Individual Care Plan</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31748&dbid=0&repo=WSHFC"><li>Care Provider Agreement</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31746&dbid=0&repo=WSHFC"><li>Inspection Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31747&dbid=0&repo=WSHFC"><li>Release of Liability Form</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31749&dbid=0&repo=WSHFC"><li>Infants at Work Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31745&dbid=0&repo=WSHFC"><li>Individual Care Plan**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31748&dbid=0&repo=WSHFC"><li>Care Provider Agreement**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31746&dbid=0&repo=WSHFC"><li>Inspection Checklist**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31747&dbid=0&repo=WSHFC"><li>Release of Liability Form**</li></a>
                                         </ul>
                                         
                                     </div>
@@ -154,7 +154,7 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Remote Access</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31753&dbid=0&repo=WSHFC"><li>Remote Access Policy Acceptance</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31753&dbid=0&repo=WSHFC"><li>Remote Access to Network Policy</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Reasonable Accomodation</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31751&dbid=0&repo=WSHFC"><li>Accommodation Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31751&dbid=0&repo=WSHFC"><li>Reasonable Accommodation Policy</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@ export default function EmployeeResources(){
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31722&dbid=0&repo=WSHFC"><li>Computer Software and Upgrades</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31723&dbid=0&repo=WSHFC"><li>Computer Virus Policy</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31725&dbid=0&repo=WSHFC"><li>Internet Access &amp; Use</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31724&dbid=0&repo=WSHFC"><li>Equipment Checkout</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31724&dbid=0&repo=WSHFC"><li>Equipment Checkout Procedures</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31726&dbid=0&repo=WSHFC"><li>Wireless Device</li></a>
                                         </ul>
                                     </div>
@@ -223,7 +223,7 @@ export default function EmployeeResources(){
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31716&dbid=0&repo=WSHFC"><li>Meetings</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31715&dbid=0&repo=WSHFC"><li>Board and Training Room Use</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34326&dbid=0&repo=WSHFC"><li>Board Room Set-Up Chart</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34327&dbid=0&repo=WSHFC"><li>Meeting Room Reservation</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34327&dbid=0&repo=WSHFC"><li>Meeting Room Reservation Form</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -287,9 +287,9 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31709&dbid=0&repo=WSHFC"><li>Performance Evaluation</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31710&dbid=0&repo=WSHFC"><li>Performance Management</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34329&dbid=0&repo=WSHFC"><li>Performance and Development</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31709&dbid=0&repo=WSHFC"><li>Performance Evaluations Guidelines &amp; Standards</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31710&dbid=0&repo=WSHFC"><li>Performance Management Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34329&dbid=0&repo=WSHFC"><li>Performance and Development**</li></a>
                                         </ul>
                                         
                                     </div>
@@ -307,8 +307,8 @@ export default function EmployeeResources(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Employee Recognition</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34331&dbid=0&repo=WSHFC"><li>Employee Recognition</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34330&dbid=0&repo=WSHFC"><li>Employee Recognition Nomination</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34331&dbid=0&repo=WSHFC"><li>Employee Recognition Program</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34330&dbid=0&repo=WSHFC"><li>Employee Recognition Nomination**</li></a>
                                         </ul>
                                         
                                     </div>
@@ -320,8 +320,8 @@ export default function EmployeeResources(){
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
                                             <a className="hover:underline text-blue-450" href="https://www.linkedin.com/learning/subscription/topics?trk=sem_ldctest2lillp_learning&isFromLynda=true&src=pa-bi&veh=sem_src.pa-bi_c.LLS-C_NAMER_US_T1_EN-US_SEM_SEM_MSA_NA_All_NA_NA_Core_NA_LDC-All-Gamma_NonBrand_Phrase_pkw.lynda%20com_pmt.e_pcrid._pdv.c_plc._trgid.kwd-26297369466:loc-190_net.o_learning&trk=sem_src.pa-bi_c.LLS-C_NAMER_US_T1_EN-US_SEM_SEM_MSA_NA_All_NA_NA_Core_NA_LDC-All-Gamma_NonBrand_Phrase_pkw.lynda%20com_pmt.e_pcrid._pdv.c_plc._trgid.kwd-26297369466:loc-190_net.o_learning&mcid=&cname=LLS-C_NAMER_US_T1_EN-US_SEM_SEM_MSA_NA_All_NA_NA_Core_NA_LDC-All-Gamma_NonBrand_Phrase&camid=2472437&asid=1161234310&targetid=kwd-26297369466:loc-190&crid=&placement=&dev=c&ends=1&gclid=df8e3d54163d18264dbc5c3b41d2da0d&gclsrc=3p.ds&msclkid=df8e3d54163d18264dbc5c3b41d2da0d"><li>Lynda Learning</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31736&dbid=0&repo=WSHFC"><li>Employee Certificate and Degree Program Application</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34332&dbid=0&repo=WSHFC"><li>Employee Certificate and Degree Program Prioritization</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31736&dbid=0&repo=WSHFC"><li>Employee Certificate and Degree Programs</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34332&dbid=0&repo=WSHFC"><li>Employee Certificate and Degree Program Prioritization**</li></a>
                                         </ul>
                                     </div>
                                 </div>

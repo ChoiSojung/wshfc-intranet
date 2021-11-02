@@ -155,10 +155,10 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Training</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://training.knowbe4.com/ui/login/UnVhzc2VsLklV2ZW5odWxlzQHdzkpaGZjuLm9yZw=="><li>Security Awareness Training</li></a>
-                                            <a className="hover:underline text-blue-450" href="\\tinos\allstaff\finance\IT\office2013quickGuides"><li>Office Quick Reference Guides</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/watch?v=zdZCGln8yus"><li>WEBEX Tutorial</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://help.webex.com/en-US/article/73lgs2/Cisco-Webex-Meetings"><li>WEBEX Training Center</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://training.knowbe4.com/ui/login/UnVhzc2VsLklV2ZW5odWxlzQHdzkpaGZjuLm9yZw=="><li>Security Awareness Training**</li></a>
+                                            <a className="hover:underline text-blue-450" href="\\tinos\allstaff\finance\IT\office2013quickGuides"><li>Office Quick Reference Guides**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/watch?v=zdZCGln8yus"><li>WEBEX Tutorial**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://help.webex.com/en-US/article/73lgs2/Cisco-Webex-Meetings"><li>WEBEX Training Center**</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ export default function IT(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Fact Sheets/How-to</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31822&dbid=0&repo=WSHFC"><li>Mimecast Spam Filter Employee Access Instructions</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31822&dbid=0&repo=WSHFC"><li>Mimecast Spam Filter Employee Access Instructions**</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31823&dbid=0&repo=WSHFC"><li>F5 Set-Up Instructions</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31824&dbid=0&repo=WSHFC"><li>Postage Meter Instructions</li></a>
                                         </ul>
