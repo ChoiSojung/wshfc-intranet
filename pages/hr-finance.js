@@ -243,10 +243,11 @@ export default function HrFinance(){
                         <div className="flex flex-col md:flex-row md:-mx-2">
                             <div className="mt-4 md:w-1/2">
                                 <div className="bg-gray-100 h-full p-8 border-b-4 border-green-450 rounded-lg flex flex-col items-center md:mx-2 md:p-3 md:p-8">
-                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Leave</div>
+                                    <div className="font-serif font-bold text-gray-700 text-lg text-center">Timesheet &amp; Leave</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31797&dbid=0&repo=WSHFC"><li>Leave/Overtime Request**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31797&dbid=0&repo=WSHFC"><li>Timesheet**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=31797#?openmode=LDPS"><li>Leave**</li></a>
                                             <a className="hover:underline text-blue-450" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>Employee Self Service</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31798&dbid=0&repo=WSHFC"><li>Shared Leave Policy</li></a>
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33949&dbid=0&repo=WSHFC"><li>Shared Leave Medical Certificate</li></a>
