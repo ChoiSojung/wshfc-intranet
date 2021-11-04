@@ -211,19 +211,9 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Internal Resources</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-<<<<<<< HEAD
-                                            <a className="hover:underline text-blue-450" href="file:///P:/wwwroot/resources/PictorialGuide.pdf"><li>Pictorial Guide</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>About the Commission</li></a>
-                                            <a className="hover:underline text-blue-450" href="#"><li>New Hire HR Packet</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34364&dbid=0&repo=WSHFC"><li>Deputy Director Orientation Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34366&dbid=0&repo=WSHFC"><li>Intranet Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34363&dbid=0&repo=WSHFC"><li>New Employee Request</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=34367&dbid=0&repo=WSHFC"><li>Personnel Orientation Checklist</li></a>
-=======
                                             <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=35063#?openmode=PDF"><li>Pictorial Guide</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>About the Commission**</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>New Hire HR Packet**</li></a>
->>>>>>> main
                                         </ul>
                                     </div>
                                 </div>

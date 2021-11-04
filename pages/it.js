@@ -157,13 +157,8 @@ export default function IT(){
                                         <ul className="list-decimal list-inside">
                                             <a className="hover:underline text-blue-450" href="https://training.knowbe4.com/ui/login/UnVhzc2VsLklV2ZW5odWxlzQHdzkpaGZjuLm9yZw=="><li>Security Awareness Training**</li></a>
                                             <a className="hover:underline text-blue-450" href="\\tinos\allstaff\finance\IT\office2013quickGuides"><li>Office Quick Reference Guides**</li></a>
-<<<<<<< HEAD
-                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/watch?v=zdZCGln8yus"><li>WEBEX Tutorial**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://help.webex.com/en-US/article/73lgs2/Cisco-Webex-Meetings"><li>WEBEX Training Center**</li></a>
-=======
                                             <a className="hover:underline text-blue-450" href="https://www.youtube.com/watch?v=zdZCGln8yus"><li>WEBEX Tutorial</li></a>
                                             <a className="hover:underline text-blue-450" href="https://help.webex.com/en-US/article/73lgs2/Cisco-Webex-Meetings"><li>WEBEX Training Center</li></a>
->>>>>>> main
                                         </ul>
                                     </div>
                                 </div>
