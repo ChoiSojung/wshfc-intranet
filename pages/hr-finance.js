@@ -121,11 +121,11 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Commission Job</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31758&dbid=0&repo=WSHFC"><li>Classification Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31759&dbid=0&repo=WSHFC"><li>Exempt Banding Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31760&dbid=0&repo=WSHFC"><li>Salary Determination</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31761&dbid=0&repo=WSHFC"><li>Washington Management Services</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31757&dbid=0&repo=WSHFC"><li>Position Description General Service**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31758&dbid=0&repo=WSHFC" target="_blank"><li>Classification Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31759&dbid=0&repo=WSHFC" target="_blank"><li>Exempt Banding Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31760&dbid=0&repo=WSHFC" target="_blank"><li>Salary Determination</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31761&dbid=0&repo=WSHFC" target="_blank"><li>Washington Management Services</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31757&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Position Description General Service**</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>Position Description**</li></a>
                                         </ul>
                                     </div>
@@ -137,14 +137,14 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Hiring</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31776&dbid=0&repo=WSHFC"><li>Hiring</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31777&dbid=0&repo=WSHFC"><li>Orientation Procedures</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31757&dbid=0&repo=WSHFC"><li>Position Description General Service**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31778&dbid=0&repo=WSHFC"><li>Reduction in Force</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31779&dbid=0&repo=WSHFC"><li>Temporary Help</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31774&dbid=0&repo=WSHFC"><li>Reference Check Release**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31775&dbid=0&repo=WSHFC"><li>State Employment Application**</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/careers.htm"><li>Jobs</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31776&dbid=0&repo=WSHFC" target="_blank"><li>Hiring</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31777&dbid=0&repo=WSHFC" target="_blank"><li>Orientation Procedures</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31757&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Position Description General Service**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31778&dbid=0&repo=WSHFC" target="_blank"><li>Reduction in Force</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31779&dbid=0&repo=WSHFC" target="_blank"><li>Temporary Help</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31774&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Reference Check Release**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31775&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>State Employment Application**</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/careers.htm" target="_blank"><li>Jobs</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>Contracting**</li></a>
                                         </ul>
                                         
@@ -160,10 +160,10 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">For the Employer</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31768&dbid=0&repo=WSHFC"><li>Deputy Director Orientation Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31769&dbid=0&repo=WSHFC"><li>Intranet Checklist</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31770&dbid=0&repo=WSHFC"><li>New Employee Request</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31771&dbid=0&repo=WSHFC"><li>Personnel Orientation Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31768&dbid=0&repo=WSHFC" target="_blank"><li>Deputy Director Orientation Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31769&dbid=0&repo=WSHFC" target="_blank"><li>Intranet Checklist</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31770&dbid=0&repo=WSHFC" target="_blank"><li>New Employee Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31771&dbid=0&repo=WSHFC" target="_blank"><li>Personnel Orientation Checklist</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -174,10 +174,10 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Evaluations</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31765&dbid=0&repo=WSHFC"><li>Performance Evaluations</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31766&dbid=0&repo=WSHFC"><li>Performance Management</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31764&dbid=0&repo=WSHFC"><li>Performance and Development Plan**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31763&dbid=0&repo=WSHFC"><li>Performance Management Competency Examples**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31765&dbid=0&repo=WSHFC" target="_blank"><li>Performance Evaluations</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31766&dbid=0&repo=WSHFC" target="_blank"><li>Performance Management</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31764&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Performance and Development Plan**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31763&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Performance Management Competency Examples**</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -190,10 +190,10 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Miscellaneous</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31783&dbid=0&repo=WSHFC"><li>Exemption Request</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://des.wa.gov/services/HRPayroll/eap/Resources/Pages/FrontlineSupervisorNewsletters.aspx"><li>Frontline Supervisor Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31784&dbid=0&repo=WSHFC"><li>Great Job Program</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31782&dbid=0&repo=WSHFC"><li>Discipline Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31783&dbid=0&repo=WSHFC" target="_blank"><li>Exemption Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://des.wa.gov/services/HRPayroll/eap/Resources/Pages/FrontlineSupervisorNewsletters.aspx" target="_blank"><li>Frontline Supervisor Newsletter</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31784&dbid=0&repo=WSHFC" target="_blank"><li>Great Job Program</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31782&dbid=0&repo=WSHFC" target="_blank"><li>Discipline Policy</li></a>
                                         </ul>
                                         
                                     </div>
@@ -211,7 +211,7 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Internal Resources</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=35063#?openmode=PDF"><li>Pictorial Guide</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=35063#?openmode=PDF" target="_blank"><li>Pictorial Guide</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>About the Commission**</li></a>
                                             <a className="hover:underline text-blue-450" href="#"><li>New Hire HR Packet**</li></a>
                                         </ul>
@@ -224,11 +224,11 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">External Links</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://hr.wa.gov/"><li>WA State HR Page</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://www.hca.wa.gov/"><li>WA State Health Care Authority</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://des.wa.gov/services/HRPayroll/eap/Resources/Pages/FrontLineEmployeeNewsletter.aspx"><li>Frontline Employee Newsletter</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://www.drs.wa.gov/"><li>WA State Department of Retirement Systems</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.drs.wa.gov/outlook/active/default.htm"><li>Retirement Newsletter**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://hr.wa.gov/" target="_blank"><li>WA State HR Page</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.hca.wa.gov/" target="_blank"><li>WA State Health Care Authority</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://des.wa.gov/services/HRPayroll/eap/Resources/Pages/FrontLineEmployeeNewsletter.aspx" target="_blank"><li>Frontline Employee Newsletter</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.drs.wa.gov/" target="_blank"><li>WA State Department of Retirement Systems</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.drs.wa.gov/outlook/active/default.htm" target="_blank"><li>Retirement Newsletter**</li></a>
                                         </ul>
                                         
                                     </div>
@@ -246,14 +246,14 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Timesheet &amp; Leave</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31797&dbid=0&repo=WSHFC"><li>Timesheet**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=31797#?openmode=LDPS"><li>Leave**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled"><li>Employee Self Service</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31798&dbid=0&repo=WSHFC"><li>Shared Leave Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33949&dbid=0&repo=WSHFC"><li>Shared Leave Medical Certificate</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33950&dbid=0&repo=WSHFC"><li>Shared Leave Recipient Request</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33948&dbid=0&repo=WSHFC"><li>Shared Leave Donor Request</li></a>                              
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31799&dbid=0&repo=WSHFC"><li>Uniformed Service Shared Leave Pool</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31797&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Timesheet**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/laserfiche/DocView.aspx?repo=WSHFC&docid=31797#?openmode=LDPS" target="_blank"><li>Leave**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://myportal.wa.gov/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?saml2=disabled" target="_blank"><li>Employee Self Service</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31798&dbid=0&repo=WSHFC" target="_blank"><li>Shared Leave Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33949&dbid=0&repo=WSHFC" target="_blank"><li>Shared Leave Medical Certificate</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33950&dbid=0&repo=WSHFC" target="_blank"><li>Shared Leave Recipient Request</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=33948&dbid=0&repo=WSHFC" target="_blank"><li>Shared Leave Donor Request</li></a>                              
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31799&dbid=0&repo=WSHFC" target="_blank"><li>Uniformed Service Shared Leave Pool</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -264,10 +264,10 @@ export default function HrFinance(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Travel</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31804&dbid=0&repo=WSHFC"><li>Travel Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31801&dbid=0&repo=WSHFC"><li>Travel Authorization (Advance)**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31802&dbid=0&repo=WSHFC"><li>Travel Expense Voucher**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31803&dbid=0&repo=WSHFC"><li>Travel Itinerary**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31804&dbid=0&repo=WSHFC" target="_blank"><li>Travel Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31801&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Travel Authorization (Advance)**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31802&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Travel Expense Voucher**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31803&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Travel Itinerary**</li></a>
                                         </ul>
                                         
                                     </div>
