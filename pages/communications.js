@@ -122,13 +122,13 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Letterheads &amp; Templates</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31694&dbid=0&repo=WSHFC"><li>WSHFC Letterhead**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31690&dbid=0&repo=WSHFC"><li>WHEFA Letterhead**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31688&dbid=0&repo=WSHFC"><li>TSA Letterhead**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31693&dbid=0&repo=WSHFC"><li>Powerpoints**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31691&dbid=0&repo=WSHFC"><li>WHEFA Memos**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31687&dbid=0&repo=WSHFC"><li>TSA Memos**</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31695&dbid=0&repo=WSHFC"><li>Commission Agenda Sample**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31694&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>WSHFC Letterhead**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31690&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>WHEFA Letterhead**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31688&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>TSA Letterhead**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31693&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Powerpoints**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31691&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>WHEFA Memos**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31687&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>TSA Memos**</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView9.aspx?id=31695&dbid=0&repo=WSHFC&cr1&openfile=false" target="_blank"><li>Commission Agenda Sample**</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -139,9 +139,9 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Official Logos</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31679&dbid=0&repo=WSHFC"><li>WA State Housing Finance Commission (WSHFC)</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31676&dbid=0&repo=WSHFC"><li>WA Higher Education Facilities Authority (WHEFA)</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31674&dbid=0&repo=WSHFC"><li>Tobacco Settlement Authority (TSA)</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31679&dbid=0&repo=WSHFC" target="_blank"><li>WA State Housing Finance Commission (WSHFC)</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31676&dbid=0&repo=WSHFC" target="_blank"><li>WA Higher Education Facilities Authority (WHEFA)</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/Browse.aspx?id=31674&dbid=0&repo=WSHFC" target="_blank"><li>Tobacco Settlement Authority (TSA)</li></a>
                                         </ul>
                                         
                                     </div>
@@ -172,11 +172,11 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Web &amp; Social Media</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31671&dbid=0&repo=WSHFC"><li>Website &amp; Social Media Policy</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.facebook.com/wshfc"><li>Facebook</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.twitter.com/wshfc"><li>Twitter</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://www.instagram.com/wa_housing_finance/"><li>Instagram</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/channel/UCMSdmora-KStbypuqOQf3hw"><li>YouTube</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31671&dbid=0&repo=WSHFC" target="_blank"><li>Website &amp; Social Media Policy</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.facebook.com/wshfc" target="_blank"><li>Facebook</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.twitter.com/wshfc" target="_blank"><li>Twitter</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.instagram.com/wa_housing_finance/" target="_blank"><li>Instagram</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://www.youtube.com/channel/UCMSdmora-KStbypuqOQf3hw" target="_blank"><li>YouTube</li></a>
                                         </ul>
                                         
                                     </div>
@@ -194,10 +194,10 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Guides</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31659&dbid=0&repo=WSHFC"><li>Graphic Standards</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31662&dbid=0&repo=WSHFC"><li>To Hyphenate or Not to Hyphenate</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31661&dbid=0&repo=WSHFC"><li>Style Guide</li></a>
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31660&dbid=0&repo=WSHFC"><li>Quick Style Sheet for Contractors</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31659&dbid=0&repo=WSHFC" target="_blank"><li>Graphic Standards</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31662&dbid=0&repo=WSHFC" target="_blank"><li>To Hyphenate or Not to Hyphenate</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31661&dbid=0&repo=WSHFC" target="_blank"><li>Style Guide</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31660&dbid=0&repo=WSHFC" target="_blank"><li>Quick Style Sheet for Contractors</li></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -208,9 +208,9 @@ export default function Communications(){
                                     <div className="font-serif font-bold text-gray-700 text-lg text-center">Publications</div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/publications.htm"><li>Statewide Annual &amp; Impact Reports</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/publications.htm"><li>Other Commission Publications</li></a>
-                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/Newsletter/index.htm"><li>My View Newsletters</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/publications.htm" target="_blank"><li>Statewide Annual &amp; Impact Reports</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/admin/publications.htm" target="_blank"><li>Other Commission Publications</li></a>
+                                            <a className="hover:underline text-blue-450" href="http://www.wshfc.org/Newsletter/index.htm" target="_blank"><li>My View Newsletters</li></a>
                                         </ul>
                                         
                                     </div>
@@ -228,7 +228,7 @@ export default function Communications(){
                                     <div className="font-bold text-gray-700 text-lg text-center"></div>
                                     <div className="mt-4 text-gray-700 text-sm text-center">
                                         <ul className="list-decimal list-inside">
-                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31653&dbid=0&repo=WSHFC"><li>Communications Plan (2017-19)</li></a>
+                                            <a className="hover:underline text-blue-450" href="https://kasos.wshfc.org/WebLink/DocView.aspx?id=31653&dbid=0&repo=WSHFC" target="_blank"><li>Communications Plan (2017-19)</li></a>
                                         </ul>
                                         
                                     </div>
